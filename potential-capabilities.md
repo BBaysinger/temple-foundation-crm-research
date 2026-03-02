@@ -24,6 +24,13 @@ This is a broad list of CRM capabilities to consider for current and future need
 18. Contact merging
 19. Duplicate detection
 20. Data import/export (CSV)
+21. Constituent self-service portal (profile + preferences)
+22. Householding automation rules
+23. Communication consent history tracking
+24. Field-level permissions
+25. Audit logs for record changes
+26. Data retention and archival controls
+27. Real-time duplicate prevention on form entry/import
 
 ## Donations & Fundraising
 
@@ -47,6 +54,13 @@ This is a broad list of CRM capabilities to consider for current and future need
 18. Donor lifetime value calculation
 19. Wealth screening integrations
 20. Donor segmentation
+21. Soft credits and gift attribution tracking
+22. Matching gift workflow automation
+23. Recurring gift failed-payment recovery workflows
+24. Major gift moves management pipeline
+25. Planned giving / legacy gift tracking
+26. Grant deadline and reporting workflow reminders
+27. Donation payout reconciliation
 
 ## Event & RSVP Management
 
@@ -70,6 +84,9 @@ This is a broad list of CRM capabilities to consider for current and future need
 18. Virtual event integrations
 19. Multi-session event support
 20. Event analytics reporting
+21. Mobile event check-in (phone/tablet)
+22. Offline check-in with sync
+23. Automated post-event follow-up workflows
 
 ## Volunteer & Membership Management
 
@@ -83,6 +100,9 @@ This is a broad list of CRM capabilities to consider for current and future need
 8. Membership dues processing
 9. Certification tracking
 10. Volunteer engagement history
+11. Volunteer self-service portal
+12. Volunteer hour approval workflows
+13. Volunteer onboarding checklist workflows
 
 ## Email & Marketing Automation
 
@@ -101,6 +121,9 @@ This is a broad list of CRM capabilities to consider for current and future need
 13. Pop-up form builder
 14. Newsletter management
 15. Marketing attribution tracking
+16. Multilingual email templates
+17. Journey-based communication builder
+18. Preference-center integration for subscriptions
 
 ## Reporting & Analytics
 
@@ -114,6 +137,10 @@ This is a broad list of CRM capabilities to consider for current and future need
 8. Event performance reports
 9. Data filtering & custom reports
 10. Exportable PDF reports
+11. Goal pacing dashboards (actual vs target)
+12. Board-ready KPI report packs
+13. Data quality dashboards (missing/stale/invalid records)
+14. Major gift pipeline and stage velocity reporting
 
 ## Integrations & System Features
 
@@ -122,3 +149,7 @@ This is a broad list of CRM capabilities to consider for current and future need
 3. QuickBooks integration
 4. Zapier / automation tool integration
 5. API access
+6. WordPress/CMS integration
+7. Webhook support
+8. Scheduled accounting sync and export mappings
+9. Single sign-on (SSO)
