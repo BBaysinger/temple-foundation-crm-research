@@ -1,0 +1,23 @@
+{
+  "name": "temple-foundation-crm-research",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/BBaysinger/temple-foundation-crm-research#readme",
+  "bugs": {
+    "url": "https://github.com/BBaysinger/temple-foundation-crm-research/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBaysinger/temple-foundation-crm-research.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  }
+}
