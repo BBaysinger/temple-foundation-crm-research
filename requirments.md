@@ -1,2 +1,0 @@
-Annotated list of actual/known established CRM requirements for Temple Foundation.
-
