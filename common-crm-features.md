@@ -1,4 +1,4 @@
-# Potential CRM Capabilities
+# Common CRM Capabilities
 
 This is a nonprofit-focused list of CRM capabilities to consider for current and future evaluation needs (including some features that may not be immediately required)
 
