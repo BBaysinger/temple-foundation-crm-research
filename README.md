@@ -28,7 +28,7 @@ The selected CRM should:
 
 - [README.md](README.md): project context, goals, and navigation
 - [requirements.md](requirements.md): known and validated requirements for Temple Foundation
-- [potential-capabilities.md](potential-capabilities.md): broad feature inventory for current and future-state planning
+- [common-crm-features.md](common-crm-features.md): broad feature inventory for current and future-state planning
 - [top-non-profit-crms.md](top-non-profit-crms.md): shortlist of candidate CRM platforms
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
 
