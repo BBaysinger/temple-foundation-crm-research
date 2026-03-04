@@ -19,12 +19,16 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 
 ### 1) Bloomerang
 
+**Type:** CRM
+
 **Best for:** Small-to-mid nonprofits prioritizing donor retention and ease of use.  
 **Strengths:** Friendly UX, donor engagement insights, fundraising-focused workflows, solid reporting for development teams.  
 **Tradeoffs:** Less flexible than highly customizable enterprise platforms.  
 **Good fit if you need:** Fast onboarding, practical fundraising tooling, and low admin overhead.
 
 ### 2) DonorPerfect
+
+**Type:** CRM
 
 **Best for:** Organizations that want proven donor management depth with configurable workflows.  
 **Strengths:** Strong gift tracking, recurring giving, reporting, and mature nonprofit feature set.  
@@ -33,12 +37,16 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 
 ### 3) Neon CRM
 
+**Type:** CRM
+
 **Best for:** Nonprofits needing an all-in-one system for donor, event, membership, and email operations.  
 **Strengths:** Broad feature coverage, built-in event/membership capabilities, useful integrations for small teams.  
 **Tradeoffs:** User experience varies by module; complexity increases as you enable more features.  
 **Good fit if you need:** One platform spanning development + programs + member/community workflows.
 
 ### 4) Salesforce Nonprofit Cloud / NPSP
+
+**Type:** CRM
 
 **Best for:** Growing or complex nonprofits needing high flexibility and ecosystem scale.  
 **Strengths:** Deep customization, robust automation, large partner/app ecosystem, strong long-term scalability.  
@@ -48,12 +56,16 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 
 ### 5) Blackbaud Raiser’s Edge NXT
 
+**Type:** CRM
+
 **Best for:** Established organizations with sophisticated fundraising and advancement functions.  
 **Strengths:** Deep major-gift and advancement capabilities, strong institutional adoption, mature fundraising tooling.  
 **Tradeoffs:** Cost and implementation effort can be substantial for smaller organizations.  
 **Good fit if you need:** Advanced development operations and higher-volume fundraising infrastructure.
 
 ### 6) Bonterra (Network for Good / EveryAction family)
+
+**Type:** Engagement Platform
 
 **Best for:** Teams focused on digital fundraising and engagement campaigns.  
 **Strengths:** Campaign-oriented workflows, donation + communication tools, advocacy/political roots in some product lines.  
@@ -62,12 +74,16 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 
 ### 7) HubSpot for Nonprofits
 
+**Type:** Engagement Platform
+
 **Best for:** Nonprofits emphasizing marketing, pipeline visibility, and inbound communications.  
 **Strengths:** Strong contact lifecycle management, excellent marketing automation UX, broad integrations.  
 **Tradeoffs:** Native nonprofit fundraising depth is lighter than purpose-built nonprofit CRMs.  
 **Good fit if you need:** CRM + marketing excellence and are comfortable adding fundraising-specific tools where needed.
 
 ### 8) CiviCRM (Most Nonprofit-Native)
+
+**Type:** CRM
 
 **Best for:** Organizations that want nonprofit-specific depth and full control over their data stack.  
 **What it is:** Open-source CRM built specifically for nonprofits, often used with WordPress.  
@@ -78,6 +94,8 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 
 ### 9) Givebutter (Strong Small-Nonprofit Option)
 
+**Type:** Fundraising Platform
+
 **Best for:** Early-stage nonprofits wanting low overhead and fast time-to-value.  
 **What it is:** All-in-one fundraising, CRM, events, and donor engagement platform.  
 **Strengths:** Built-in CRM, event ticketing, donation pages, text-to-give, embeddable tools, modern UX, and no required monthly platform fee in many use cases.  
@@ -86,6 +104,8 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 **Good fit if you need:** Minimal admin burden, tight budget control, and easy integration into a future website via embed/API.
 
 ### 10) Donorbox + Separate CRM Stack (Simple Modular Path)
+
+**Type:** Fundraising Platform + Modular CRM Stack
 
 **Best for:** Teams that want to start with donations first and layer CRM depth over time.  
 **What it is:** Donation platform paired with a separate CRM/marketing stack (such as HubSpot, Salesforce, Mailchimp, or Zapier workflows).  
