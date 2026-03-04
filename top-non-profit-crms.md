@@ -4,22 +4,38 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 
 ## Quick Shortlist
 
+Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, low-admin overhead).
+
 1. Givebutter
 2. Bloomerang
 3. Neon CRM
-4. DonorPerfect
-5. CiviCRM
-6. Donorbox + Separate CRM Stack
-7. HubSpot for Nonprofits
-8. Bonterra (Network for Good / EveryAction family)
-9. Salesforce Nonprofit Cloud / NPSP
-10. Blackbaud Raiser’s Edge NXT
+4. Aplos
+5. Little Green Light
+6. DonorPerfect
+7. CiviCRM
+8. Donorbox + Separate CRM Stack
+9. HubSpot for Nonprofits
+10. Bonterra (Network for Good / EveryAction family)
+11. Salesforce Nonprofit Cloud / NPSP
+12. Blackbaud Raiser’s Edge NXT
 
-## Platform Rundown
+## Additional Platforms Worth Mentioning
+
+These are commonly considered in nonprofit evaluations and may be worth a second-pass review depending on budget, complexity, and team capacity.
+
+- **Virtuous** (**Type:** CRM): Strong automation and responsive fundraising workflows for growth-focused teams.
+- **CharityEngine** (**Type:** Fundraising Platform + CRM): More enterprise-oriented all-in-one fundraising and payment stack.
+- **Funraise** (**Type:** Fundraising Platform): Digital-first fundraising with modern donation and campaign tooling.
+- **NationBuilder** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns.
+
+## Platform Rundown 
+
+Ballpark costs below are directional estimates (as of 2026) and vary by contacts, modules, contract terms, nonprofit discounts, and payment method.
 
 ### 1) Bloomerang
 
 **Type:** CRM
+**Pricing model:** Tiered SaaS subscription; ballpark ~$120-$600+/month. Donation fees are usually processor-driven (commonly ~2.2%-2.9% + $0.30/card transaction).
 
 **Best for:** Small-to-mid nonprofits prioritizing donor retention and ease of use.  
 **Strengths:** Friendly UX, donor engagement insights, fundraising-focused workflows, solid reporting for development teams.  
@@ -29,6 +45,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 2) DonorPerfect
 
 **Type:** CRM
+**Pricing model:** Tiered subscription with add-ons; ballpark ~$100-$800+/month. Donation fees are usually processor-driven (commonly ~2.2%-2.9% + $0.30/card transaction).
 
 **Best for:** Organizations that want proven donor management depth with configurable workflows.  
 **Strengths:** Strong gift tracking, recurring giving, reporting, and mature nonprofit feature set.  
@@ -38,6 +55,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 3) Neon CRM
 
 **Type:** CRM
+**Pricing model:** Tiered subscription with module add-ons; ballpark ~$100-$500+/month. Donation fees are typically processor-driven (~2.2%-2.9% + $0.30/card transaction).
 
 **Best for:** Nonprofits needing an all-in-one system for donor, event, membership, and email operations.  
 **Strengths:** Broad feature coverage, built-in event/membership capabilities, useful integrations for small teams.  
@@ -47,6 +65,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 4) Salesforce Nonprofit Cloud / NPSP
 
 **Type:** CRM
+**Pricing model:** License-based subscription (with nonprofit discount/grant pathways) plus implementation/admin costs; effective spend often ~$0-$500+/month in licenses early on, with implementation frequently ~$5,000-$50,000+ one-time. Donation fees depend on integrated payment tooling (~2.2%-2.9% + $0.30/card transaction).
 
 **Best for:** Growing or complex nonprofits needing high flexibility and ecosystem scale.  
 **Strengths:** Deep customization, robust automation, large partner/app ecosystem, strong long-term scalability.  
@@ -57,6 +76,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 5) Blackbaud Raiser’s Edge NXT
 
 **Type:** CRM
+**Pricing model:** Quote-based enterprise subscription; common small-to-mid org ranges often land around ~$300-$2,000+/month depending package/services. Donation processing fees vary by merchant setup (often around ~2.5%-2.9% + $0.30/card transaction).
 
 **Best for:** Established organizations with sophisticated fundraising and advancement functions.  
 **Strengths:** Deep major-gift and advancement capabilities, strong institutional adoption, mature fundraising tooling.  
@@ -66,6 +86,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 6) Bonterra (Network for Good / EveryAction family)
 
 **Type:** Engagement Platform
+**Pricing model:** Product/package-based subscription; ballpark commonly ~$150-$1,500+/month depending product line and scope. Donation fees vary by payment stack (often ~2.2%-2.9% + $0.30/card transaction).
 
 **Best for:** Teams focused on digital fundraising and engagement campaigns.  
 **Strengths:** Campaign-oriented workflows, donation + communication tools, advocacy/political roots in some product lines.  
@@ -75,6 +96,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 7) HubSpot for Nonprofits
 
 **Type:** Engagement Platform
+**Pricing model:** Hub-based tiered subscription with nonprofit discount pathways; ballpark can range from free tiers to ~$100-$1,000+/month depending hubs/contacts. Native donation fees are usually via integrated fundraising/payment tools (~2.2%-2.9% + $0.30/card transaction).
 
 **Best for:** Nonprofits emphasizing marketing, pipeline visibility, and inbound communications.  
 **Strengths:** Strong contact lifecycle management, excellent marketing automation UX, broad integrations.  
@@ -84,6 +106,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 ### 8) CiviCRM (Most Nonprofit-Native)
 
 **Type:** CRM
+**Pricing model:** Open-source (no license fee); ballpark ongoing costs are typically hosting/support/maintenance (~$20-$300+/month) plus any contractor/admin time. Donation fees are processor-driven (~2.2%-2.9% + $0.30/card transaction; ACH often lower).
 
 **Best for:** Organizations that want nonprofit-specific depth and full control over their data stack.  
 **What it is:** Open-source CRM built specifically for nonprofits, often used with WordPress.  
@@ -92,9 +115,30 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 **Cost profile:** Software is free; hosting is typically around $20-$40/month; setup/admin time is the biggest cost.  
 **Good fit if you need:** Maximum flexibility and ownership, and you are comfortable operating a WordPress/plugin-style ecosystem.
 
-### 9) Givebutter (Strong Small-Nonprofit Option)
+### 9) Aplos
+
+**Type:** Nonprofit Operations Platform
+**Pricing model:** Subscription plans (package/tier based); ballpark commonly ~$80-$300+/month depending package and optional services. Donation/payment fees typically follow connected processor rates (~2.2%-2.9% + $0.30/card transaction).
+
+**Best for:** Small nonprofits and faith-based organizations that want donor management plus accounting in one system.  
+**Strengths:** Nonprofit-centric workflows, integrated fund accounting options, and practical tools for smaller teams.  
+**Tradeoffs:** Less flexible for highly custom CRM architectures and complex enterprise workflows.  
+**Good fit if you need:** A simpler all-in-one operations stack with lower technical overhead.
+
+### 10) Little Green Light
+
+**Type:** CRM
+**Pricing model:** Tiered subscription by constituent/database size; ballpark often ~$50-$300+/month. Donation fees are generally processor-driven (~2.2%-2.9% + $0.30/card transaction).
+
+**Best for:** Budget-conscious nonprofits that want straightforward donor management.  
+**Strengths:** Practical donor tracking, easy-to-run workflows, and strong value for small teams.  
+**Tradeoffs:** Interface and ecosystem are lighter than larger enterprise platforms.  
+**Good fit if you need:** A cost-effective CRM foundation without heavy implementation effort.
+
+### 11) Givebutter (Strong Small-Nonprofit Option)
 
 **Type:** Fundraising Platform
+**Pricing model:** Typically no/low required monthly platform fee in many setups; primary cost is per-donation processing (commonly around ~2.9% + $0.30/card donation, with ACH often lower) and optional tipping/donor-covered-fee options.
 
 **Best for:** Early-stage nonprofits wanting low overhead and fast time-to-value.  
 **What it is:** All-in-one fundraising, CRM, events, and donor engagement platform.  
@@ -103,9 +147,10 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 **Cost profile:** Platform cost can be effectively free depending on plan/model; payment processing (for example Stripe) is still a core cost line.  
 **Good fit if you need:** Minimal admin burden, tight budget control, and easy integration into a future website via embed/API.
 
-### 10) Donorbox + Separate CRM Stack (Simple Modular Path)
+### 12) Donorbox + Separate CRM Stack (Simple Modular Path)
 
 **Type:** Fundraising Platform + Modular CRM Stack
+**Pricing model:** Platform-fee model (often volume-based; commonly around 1.5%-2.0% on some plans/tiers) plus payment processing (~2.2%-2.9% + $0.30/card donation), plus separate CRM subscription if paired (often ~$50-$500+/month depending CRM).
 
 **Best for:** Teams that want to start with donations first and layer CRM depth over time.  
 **What it is:** Donation platform paired with a separate CRM/marketing stack (such as HubSpot, Salesforce, Mailchimp, or Zapier workflows).  
@@ -119,6 +164,7 @@ This is a practical shortlist of leading CRM options commonly used by nonprofits
 Given an early-stage, budget-sensitive nonprofit with event + donor priorities, start with:
 
 - **Primary candidates (best near-term fit):** Givebutter, Bloomerang, Neon CRM
+- **Main alternatives worth direct comparison:** Aplos, Little Green Light
 - **Low-cost control path (if self-hosting is acceptable):** CiviCRM
 - **Phased modular path:** Donorbox + separate CRM stack
 - **Stretch/scale candidate (future):** Salesforce Nonprofit Cloud
