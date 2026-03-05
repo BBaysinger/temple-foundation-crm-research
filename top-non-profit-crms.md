@@ -15,15 +15,19 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 7. CiviCRM
 8. Donorbox + Separate CRM Stack
 9. HubSpot for Nonprofits
-10. Bonterra (Network for Good / EveryAction family)
-11. Salesforce Nonprofit Cloud / NPSP
-12. Blackbaud Raiser’s Edge NXT
+10. Zoho CRM (with nonprofit stack)
+11. Airtable (with fundraising integrations)
+12. Bonterra (Network for Good / EveryAction family)
+13. Salesforce Nonprofit Cloud / NPSP
+14. Blackbaud Raiser’s Edge NXT
 
 ## Additional Platforms Worth Mentioning
 
 These are commonly considered in nonprofit evaluations and may be worth a second-pass review depending on budget, complexity, and team capacity.
 
 - **Virtuous** (**Type:** CRM): Strong automation and responsive fundraising workflows for growth-focused teams.
+- **Qgiv** (**Type:** Fundraising Platform): Strong event and donation campaign tooling with nonprofit-focused fundraising workflows.
+- **Zeffy** (**Type:** Fundraising Platform): Donation-first platform known for no-platform-fee positioning and simple campaign setup.
 - **CharityEngine** (**Type:** Fundraising Platform + CRM): More enterprise-oriented all-in-one fundraising and payment stack.
 - **Funraise** (**Type:** Fundraising Platform): Digital-first fundraising with modern donation and campaign tooling.
 - **NationBuilder** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns.
@@ -182,6 +186,30 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Tradeoffs:** CRM capability depends on the paired system; total cost/complexity can grow as donation volume and integrations increase.  
 **Cost profile:** Free tier available up to contribution limits, then platform fees plus payment processing.  
 **Good fit if you need:** A phased approach where immediate fundraising is the priority and full CRM complexity can come later.
+
+### 13) Zoho CRM (with nonprofit stack)
+
+**Type:** CRM
+**Pricing model:** Per-user tiered subscription (Zoho CRM/Zoho One style pricing); ballpark often ~$20-$150/user/month depending edition/apps. Donation fees are typically through integrated payment/fundraising tools (~2.2%-2.9% + $0.30/card transaction).
+**Website integration robustness (1-5):** 4/5
+**Website integration approach:** API-first integration plus embeddable forms/portals and automation workflows; best results usually involve custom configuration.
+
+**Best for:** Teams that want a flexible CRM platform and are comfortable configuring a custom nonprofit workflow stack.  
+**Strengths:** Broad app ecosystem, strong automation potential, and good value at lower tiers.  
+**Tradeoffs:** Nonprofit-specific workflows are less native than purpose-built nonprofit CRMs and may require more setup.  
+**Good fit if you need:** Developer-friendly flexibility with moderate cost and strong integration options.
+
+### 14) Airtable (with fundraising integrations)
+
+**Type:** Low-Code Operations/CRM Platform
+**Pricing model:** Per-user subscription (free + paid tiers); ballpark often ~$0-$45+/user/month depending plan/features. Donation fees are typically from connected fundraising/payment tools (~2.2%-2.9% + $0.30/card transaction).
+**Website integration robustness (1-5):** 4/5
+**Website integration approach:** API, automations, interfaces, and embedded views/forms; donation and event processing usually require connected external tools.
+
+**Best for:** Developer-led teams wanting a highly customizable data model and process automation layer.  
+**Strengths:** Fast schema iteration, excellent flexibility, and strong integration ecosystem.  
+**Tradeoffs:** Not a purpose-built nonprofit fundraising CRM; common workflows (donations, receipts, stewardship) usually need additional tools and glue code.  
+**Good fit if you need:** A composable custom stack where you control architecture and integrations.
 
 ## How to Narrow the List for Temple Foundation
 
