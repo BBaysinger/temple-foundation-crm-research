@@ -21,17 +21,6 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 13. Salesforce Nonprofit Cloud / NPSP
 14. Blackbaud Raiser’s Edge NXT
 
-## Additional Platforms Worth Mentioning
-
-These are commonly considered in nonprofit evaluations and may be worth a second-pass review depending on budget, complexity, and team capacity.
-
-- **Virtuous** (**Type:** CRM): Strong automation and responsive fundraising workflows for growth-focused teams.
-- **Qgiv** (**Type:** Fundraising Platform): Strong event and donation campaign tooling with nonprofit-focused fundraising workflows.
-- **Zeffy** (**Type:** Fundraising Platform): Donation-first platform known for no-platform-fee positioning and simple campaign setup.
-- **CharityEngine** (**Type:** Fundraising Platform + CRM): More enterprise-oriented all-in-one fundraising and payment stack.
-- **Funraise** (**Type:** Fundraising Platform): Digital-first fundraising with modern donation and campaign tooling.
-- **NationBuilder** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns.
-
 ## Platform Rundown
 
 Ballpark costs below are directional estimates (as of 2026) and vary by contacts, modules, contract terms, nonprofit discounts, and payment method.
@@ -39,14 +28,14 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 ### 1) Bloomerang
 
 **Type:** CRM
-**Pricing model:** Tiered SaaS subscription; ballpark ~$120-$600+/month. Donation fees are usually processor-driven (commonly ~2.2%-2.9% + $0.30/card transaction).
-**Website integration robustness (1-5):** 3/5
-**Website integration approach:** Embedded forms/pages plus API or Zapier for deeper sync with your site/CMS.
+**Pricing model:** Tiered SaaS subscription; ballpark ~$120-$600+/month. Donation fees are usually processor-driven (commonly ~2.2%-2.9% + $0.30/card transaction).  
+**Website integration robustness (1-5):** 3/5  
+**Website integration approach:** Embedded forms/pages plus API or Zapier for deeper sync with your site/CMS.  
 
 **Best for:** Small-to-mid nonprofits prioritizing donor retention and ease of use.  
 **Strengths:** Friendly UX, donor engagement insights, fundraising-focused workflows, solid reporting for development teams.  
 **Tradeoffs:** Less flexible than highly customizable enterprise platforms.  
-**Good fit if you need:** Fast onboarding, practical fundraising tooling, and low admin overhead.
+**Good fit if you need:** Fast onboarding, practical fundraising tooling, and low admin overhead.  
 
 ### 2) DonorPerfect
 
@@ -210,6 +199,17 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Strengths:** Fast schema iteration, excellent flexibility, and strong integration ecosystem.  
 **Tradeoffs:** Not a purpose-built nonprofit fundraising CRM; common workflows (donations, receipts, stewardship) usually need additional tools and glue code.  
 **Good fit if you need:** A composable custom stack where you control architecture and integrations.
+
+## Additional Platforms Worth Mentioning
+
+These are commonly considered in nonprofit evaluations and may be worth a second-pass review depending on budget, complexity, and team capacity.
+
+- **Virtuous** (**Type:** CRM): Strong automation and responsive fundraising workflows for growth-focused teams.
+- **Qgiv** (**Type:** Fundraising Platform): Strong event and donation campaign tooling with nonprofit-focused fundraising workflows.
+- **Zeffy** (**Type:** Fundraising Platform): Donation-first platform known for no-platform-fee positioning and simple campaign setup.
+- **CharityEngine** (**Type:** Fundraising Platform + CRM): More enterprise-oriented all-in-one fundraising and payment stack.
+- **Funraise** (**Type:** Fundraising Platform): Digital-first fundraising with modern donation and campaign tooling.
+- **NationBuilder** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns.
 
 ## How to Narrow the List for Temple Foundation
 
