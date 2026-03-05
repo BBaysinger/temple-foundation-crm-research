@@ -1,6 +1,6 @@
 # Top Nonprofit CRMs (Rundown)
 
-This is a practical shortlist of leading CRM options commonly used by nonprofits. It is designed for early-stage evaluation and should be paired with hands-on demos and current pricing checks. Note that the list contains both CRMs and fundraising platforms. Features may overlap, and sometimes both are used together. 
+This is a practical shortlist of leading CRM options commonly used by nonprofits. It is designed for early-stage evaluation and should be paired with hands-on demos and current pricing checks. Note that the list contains both CRMs and fundraising platforms. Features may overlap, and sometimes both are used together. Givebutter and Bloomerang are often used together. DonorBox is both.
 
 ## Quick Shortlist
 
