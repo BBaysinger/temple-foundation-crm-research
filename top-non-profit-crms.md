@@ -1,6 +1,6 @@
 # Top Nonprofit CRMs (Rundown)
 
-This is a practical shortlist of leading CRM options commonly used by nonprofits. It is designed for early-stage evaluation and should be paired with hands-on demos and current pricing checks. Note that the list contains both CRMs and fundraising platforms. Features may overlap, and sometimes both are used together. Givebutter and Bloomerang are often used together. DonorBox is both.
+This is a practical shortlist of leading CRM options commonly used by nonprofits. It is designed for early-stage evaluation and should be paired with hands-on demos and current pricing checks. Note that the list contains both CRMs and fundraising platforms. Features may overlap, and sometimes both are used together. Givebutter and Bloomerang are often used together.
 
 ## Quick Shortlist
 
@@ -164,17 +164,17 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 
 ### 12) Donorbox + Separate CRM Stack (Simple Modular Path)
 
-**Type:** Fundraising Platform + Modular CRM Stack  
-**Pricing model:** Platform-fee model (often volume-based; commonly around 1.5%-2.0% on some plans/tiers) plus payment processing (~2.2%-2.9% + $0.30/card donation), plus separate CRM subscription if paired (often ~$50-$500+/month depending CRM).
+**Type:** Donation Platform (+ External CRM Stack) 
+**Pricing model:** Platform-fee model (often volume-based; commonly around 1.5%-2.0% on some plans/tiers) plus payment processing (~2.2%-2.9% + $0.30/card donation), plus separate CRM subscription if paired (often ~$50-$500+/month depending on CRM).  
 **Website integration robustness (1-5):** 4/5  
-**Website integration approach:** Quick embeds for giving plus integration plumbing (Zapier/API/webhooks) to sync with the chosen CRM.  
+**Website integration approach:** Embedded donation forms handle giving on the website, while donor data is synchronized to a separate CRM through API integrations, Zapier, or webhooks.
 
-**Best for:** Teams that want to start with donations first and layer CRM depth over time.  
-**What it is:** Donation platform paired with a separate CRM/marketing stack (such as HubSpot, Salesforce, Mailchimp, or Zapier workflows).  
-**Strengths:** Fast donation setup, recurring giving support, easy embeds, and flexibility to choose best-of-breed tools.  
-**Tradeoffs:** CRM capability depends on the paired system; total cost/complexity can grow as donation volume and integrations increase.  
-**Cost profile:** Free tier available up to contribution limits, then platform fees plus payment processing.  
-**Good fit if you need:** A phased approach where immediate fundraising is the priority and full CRM complexity can come later.
+**Best for:** Organizations that want to launch online donations quickly while building their CRM and operations stack separately.  
+**What it is:** A **fundraising-first setup** where Donorbox handles donation collection and recurring giving, while a **separate CRM system** (such as HubSpot, Salesforce, Bloomerang, or similar) manages donor relationships, communications, and operational workflows.  
+**Strengths:** Fast donation setup, strong recurring giving support, easy website embeds, and flexibility to choose best-of-breed tools for CRM, email marketing, and reporting.  
+**Tradeoffs:** Donorbox itself is **not a full CRM**, so relationship management, segmentation, and automation depend on the external CRM. Integration complexity and costs can increase as systems scale.  
+**Cost profile:** Free tier available up to contribution limits, then platform fees plus payment processing. CRM pricing varies depending on the system selected.  
+**Good fit if you need:** A phased approach where **online fundraising launches quickly**, while CRM depth, automation, and donor lifecycle management are added over time.
 
 ### 13) Zoho CRM (with nonprofit stack)
 
