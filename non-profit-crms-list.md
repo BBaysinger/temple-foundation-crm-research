@@ -286,11 +286,11 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Pricing model:** Per-user SaaS pricing with tiered feature plans; total cost depends on team size, workflow automation needs, and connected tool stack. Donation/payment fees are typically via connected fundraising/payment tools (~2.2%-2.9% + $0.30/card transaction where applicable).  
 **Website integration robustness (1-5):** 4/5  
 **Website integration approach:** API-driven CRM integration with custom forms, workflow automations, and connected fundraising/event tools to map nonprofit entities into Attio records.  
-**Core features:** 3.5/5 fit for events, donations, memberships, and volunteers; relationship modeling and automation are strong, while nonprofit-native donations/memberships/volunteer workflows usually require connected tools and careful configuration. Robustness: moderate-to-high. Complexity: medium-to-high.
+**Core features:** 2/5 native fit for events, donations, memberships, and volunteers; Attio is strong as a relationship and workflow engine, but these nonprofit core features are typically not built in and usually require connected tools plus careful configuration. Robustness: moderate with integrations. Complexity: high.
 
 **Best for:** Teams that want a modern, flexible CRM interface and are comfortable building a connected nonprofit operations stack around it.  
 **Strengths:** Modern UX, strong customizable data model, flexible automation potential, and good fit for relationship-centric workflows.  
-**Tradeoffs:** Not nonprofit-native out of the box; core fundraising/membership/volunteer operations often require additional systems and integration discipline.  
+**Tradeoffs:** Not nonprofit-native out of the box; core fundraising, membership, event, and volunteer operations generally require additional systems and integration discipline.  
 **Good fit if you need:** A highly adaptable CRM core and are willing to compose nonprofit-specific functionality through integrations.
 
 ### 20) Autoreach
@@ -340,13 +340,18 @@ These are commonly considered in nonprofit evaluations and may be worth a second
 
 - **Qgiv** (**Type:** Fundraising Platform): Strong event and donation campaign tooling with nonprofit-focused fundraising workflows.
 - **Keela** (**Type:** CRM): Nonprofit-focused CRM with strong donations + communications and workable event/membership/volunteer workflows for growing teams.
+- **Salsa CRM + Engage** (**Type:** Nonprofit CRM + Engagement Platform): Strong fundraising and engagement workflows with practical event support; membership and volunteer operations are usually achievable with module choices and integrations.
 - **DonorDock** (**Type:** CRM): Small-team-friendly donor CRM with strong donation tracking and practical event support; membership/volunteer depth is lighter or integration-based.
 - **WildApricot (Personify)** (**Type:** Membership CRM): Very strong membership + events stack with donation support; volunteer workflows are workable with configuration.
+- **iMIS (Advanced Solutions International)** (**Type:** Membership + CRM Platform): Strong membership-first architecture with mature event and fundraising capabilities; common fit for organizations with heavier member operations.
+- **Fonteva (Salesforce-based)** (**Type:** Membership + Events + CRM Platform): Strong membership and event depth with Salesforce ecosystem flexibility; donation and volunteer operations are feasible with the right implementation.
+- **MemberClicks** (**Type:** Membership Management Platform): Practical membership and event tooling with donation support; volunteer workflows are usually lighter or process/integration-driven.
+- **GrowthZone** (**Type:** Membership/Association CRM): Membership-first platform with event management and fundraising support; strongest for member lifecycle operations over full nonprofit-native fundraising depth.
 - **Galaxy Digital / Get Connected** (**Type:** Volunteer Management + Engagement Platform): Volunteer-first platform with good event/community support; donation and CRM depth typically rely on integrations.
 - **Odoo** (**Type:** ERP + CRM Platform): Modular open-source platform that can support events, memberships, and volunteer workflows with app configuration; nonprofit donation depth is often integration/customization-driven.
 - **Zeffy** (**Type:** Fundraising Platform): Donation-first platform known for no-platform-fee positioning and simple campaign setup.
 - **Funraise** (**Type:** Fundraising Platform): Digital-first fundraising with modern donation and campaign tooling.
-- **NationBuilder** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns.
+- **NationBuilder (+ ecosystem integrations)** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns; events, memberships, and volunteer workflows are generally strengthened through ecosystem integrations.
 
 ## How to Narrow the List for Temple Foundation
 
@@ -354,6 +359,7 @@ Given an early-stage, budget-sensitive nonprofit with event + donor priorities, 
 
 - **Primary candidates (best near-term fit):** Givebutter, Bloomerang, Neon CRM
 - **Main alternatives worth direct comparison:** Aplos, Little Green Light
+- **Membership-forward candidate worth considering:** WildApricot (Personify)
 - **Low-cost control path (if self-hosting is acceptable):** CiviCRM
 - **Phased modular path:** Donorbox + separate CRM stack
 - **Automation-forward growth candidate:** Virtuous
