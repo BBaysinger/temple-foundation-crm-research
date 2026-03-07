@@ -26,8 +26,9 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 16. Giveffect
 17. CharityEngine
 18. Microsoft Dynamics 365 (Nonprofit stack)
-19. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)
-20. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)
+
+A. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)
+B. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)
 
 ## Platform Rundown
 
@@ -274,7 +275,7 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Tradeoffs:** Higher setup/admin complexity and longer time-to-value than lighter nonprofit SMB platforms.  
 **Good fit if you need:** A highly configurable enterprise CRM foundation with strong integration depth across fundraising and operations.
 
-### 19) Composable Stack (Next.js + Payload + Best-of-Breed Tools) [documentation](composable_nonprofit_stack.md)
+### A) Composable Stack (Next.js + Payload + Best-of-Breed Tools) [documentation](composable_nonprofit_stack.md)
 
 **Type:** Architecture Option (Composable Stack)  
 **Pricing model:** Modular SaaS + implementation model. Typical costs combine website hosting/app costs, selected SaaS tools (donations, CRM/data layer, email, events), and integration/maintenance effort. Payment processing follows chosen provider rates (~2.2%-2.9% + $0.30/card transaction where applicable).  
@@ -287,13 +288,13 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Tradeoffs:** Requires stronger technical ownership (data modeling, sync reliability, governance, and maintenance) than all-in-one platforms.  
 **Good fit if you need:** A future-proof website platform with composable services and are prepared to operate integrations as a core capability.
 
-### 20) Supabase-Based Nonprofit Platform [documentation](supabase_nonprofit_platform.md)
+### B) Supabase-Based Nonprofit Platform [documentation](supabase_nonprofit_platform.md)
 
 **Type:** Architecture Option (Custom Backend Platform)  
 **Pricing model:** Low fixed platform costs plus development/operations ownership. Typical spend is often in a low monthly range for infrastructure (Supabase + hosting + email tools) plus payment processing fees and engineering/admin time.  
 **Website integration robustness (1-5):** 5/5  
 **Website integration approach:** Next.js frontend with Supabase (Postgres/Auth/APIs/functions) as the nonprofit operations backend, with Stripe for donations/memberships and optional integrations for email and analytics.  
-**Core features:** 4.5/5 fit for events, donations, memberships, and volunteers; all four can be implemented deeply with a well-designed schema and reliable webhook/reconciliation workflows. Robustness: very high. Complexity: high (platform ownership).  
+**Core features:** 4.5/5 fit for events, donations, memberships, and volunteers; all four can be implemented deeply with a well-designed schema and reliable webhook/reconciliation workflows. Robustness: very high. Complexity: high (platform ownership).
 
 **Best for:** Teams that want a modern custom nonprofit platform with strong control over data model, portals, and workflows.  
 **Strengths:** Very low infrastructure cost, strong flexibility, clean data ownership, and a modern path for donor/member/volunteer portals.  

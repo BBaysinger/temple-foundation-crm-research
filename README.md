@@ -29,8 +29,9 @@ The selected CRM should:
 - [README.md](README.md): project context, goals, and navigation
 - [requirements.md](requirements.md): known and validated requirements for Temple Foundation
 - [common-crm-features.md](common-crm-features.md): broad feature inventory for current and future-state planning
-- [top-non-profit-crms.md](top-non-profit-crms.md): shortlist of candidate CRM platforms
+- [non-profit-crms-list.md](non-profit-crms-list.md): shortlist of candidate CRM platforms
 - [composable_nonprofit_stack.md](composable_nonprofit_stack.md): modern website-as-platform architecture option and rollout guidance
+- [supabase_nonprofit_platform.md](supabase_nonprofit_platform.md): Supabase-first backend architecture for donations, memberships, events, and volunteers
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
 
 ## Evaluation Workflow
