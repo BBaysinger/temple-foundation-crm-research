@@ -29,8 +29,8 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 
 ## Custom Options
 
-A. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)
-B. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)
+A. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)  
+B. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)  
 
 ## Platform Rundown
 
@@ -314,6 +314,7 @@ These are commonly considered in nonprofit evaluations and may be worth a second
 - **DonorDock** (**Type:** CRM): Small-team-friendly donor CRM with strong donation tracking and practical event support; membership/volunteer depth is lighter or integration-based.
 - **WildApricot (Personify)** (**Type:** Membership CRM): Very strong membership + events stack with donation support; volunteer workflows are workable with configuration.
 - **Galaxy Digital / Get Connected** (**Type:** Volunteer Management + Engagement Platform): Volunteer-first platform with good event/community support; donation and CRM depth typically rely on integrations.
+- **Odoo** (**Type:** ERP + CRM Platform): Modular open-source platform that can support events, memberships, and volunteer workflows with app configuration; nonprofit donation depth is often integration/customization-driven.
 - **Zeffy** (**Type:** Fundraising Platform): Donation-first platform known for no-platform-fee positioning and simple campaign setup.
 - **Funraise** (**Type:** Fundraising Platform): Digital-first fundraising with modern donation and campaign tooling.
 - **NationBuilder** (**Type:** Engagement Platform): Useful for supporter engagement, advocacy, and community-driven campaigns.
