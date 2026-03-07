@@ -30,6 +30,7 @@ The selected CRM should:
 - [requirements.md](requirements.md): known and validated requirements for Temple Foundation
 - [common-crm-features.md](common-crm-features.md): broad feature inventory for current and future-state planning
 - [top-non-profit-crms.md](top-non-profit-crms.md): shortlist of candidate CRM platforms
+- [composable_nonprofit_stack.md](composable_nonprofit_stack.md): modern website-as-platform architecture option and rollout guidance
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
 
 ## Evaluation Workflow

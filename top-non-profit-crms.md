@@ -26,6 +26,7 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 16. Giveffect
 17. CharityEngine
 18. Microsoft Dynamics 365 (Nonprofit stack)
+19. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)
 
 ## Platform Rundown
 
@@ -272,6 +273,19 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Tradeoffs:** Higher setup/admin complexity and longer time-to-value than lighter nonprofit SMB platforms.  
 **Good fit if you need:** A highly configurable enterprise CRM foundation with strong integration depth across fundraising and operations.
 
+### 19) Composable Stack (Next.js + Payload + Best-of-Breed Tools) [documentation](composable_nonprofit_stack.md)
+
+**Type:** Architecture Option (Composable Stack)  
+**Pricing model:** Modular SaaS + implementation model. Typical costs combine website hosting/app costs, selected SaaS tools (donations, CRM/data layer, email, events), and integration/maintenance effort. Payment processing follows chosen provider rates (~2.2%-2.9% + $0.30/card transaction where applicable).  
+**Website integration robustness (1-5):** 5/5  
+**Website integration approach:** Website-as-platform approach where Next.js/Payload (or similar) orchestrates APIs/webhooks across donation, CRM/data, event, volunteer, and messaging tools.  
+**Core features:** 4.5/5 fit for events, donations, memberships, and volunteers; all four can be implemented strongly with the right tool mix and data model. Robustness: very high. Complexity: high (integration ownership).
+
+**Best for:** Organizations that want custom user experience, flexible architecture, and control over long-term platform direction.  
+**Strengths:** Maximum frontend control, tool flexibility, modern architecture, and the ability to optimize each function independently.  
+**Tradeoffs:** Requires stronger technical ownership (data modeling, sync reliability, governance, and maintenance) than all-in-one platforms.  
+**Good fit if you need:** A future-proof website platform with composable services and are prepared to operate integrations as a core capability.
+
 ## Additional Platforms Worth Mentioning
 
 These are commonly considered in nonprofit evaluations and may be worth a second-pass review depending on budget, complexity, and team capacity.
@@ -297,6 +311,7 @@ Given an early-stage, budget-sensitive nonprofit with event + donor priorities, 
 - **Volunteer-forward all-in-one candidate:** Giveffect
 - **Consolidated enterprise candidate:** CharityEngine
 - **Enterprise Microsoft candidate:** Microsoft Dynamics 365
+- **Custom architecture candidate:** Composable Stack (Next.js + Payload + APIs)
 - **Stretch/scale candidate (future):** Salesforce Nonprofit Cloud
 - **Enterprise benchmark (likely heavier):** Blackbaud Raiser’s Edge NXT
 
