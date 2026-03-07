@@ -8,13 +8,13 @@ For Temple Foundation, the (assumed) **core features** are events, donations, me
 
 Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, low-admin overhead).
 
-1. Givebutter
-2. Bloomerang
-3. Neon CRM
-4. Aplos
-5. Little Green Light
-6. DonorPerfect
-7. CiviCRM
+1. Neon CRM
+2. CiviCRM
+3. Givebutter
+4. Bloomerang
+5. Aplos
+6. Little Green Light
+7. DonorPerfect
 8. Donorbox (+ Separate CRM Stack)
 9. HubSpot for Nonprofits
 10. Zoho CRM (with nonprofit stack)
@@ -26,11 +26,13 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 16. Giveffect
 17. CharityEngine
 18. Microsoft Dynamics 365 (Nonprofit stack)
+19. Attio
+20. Autoreach
 
 ## Custom Options
 
 A. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)  
-B. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)  
+B. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)
 
 ## Platform Rundown
 
@@ -133,15 +135,16 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Type:** CRM  
 **Pricing model:** Open-source (no license fee); ballpark ongoing costs are typically hosting/support/maintenance (~$20-$300+/month) plus any contractor/admin time. Donation fees are processor-driven (~2.2%-2.9% + $0.30/card transaction; ACH often lower).  
 **Website integration robustness (1-5):** 5/5  
-**Website integration approach:** WordPress/Drupal/Joomla integration, module configuration, and optional custom PHP/plugin work.  
+**Website integration approach:** API-integrated (decoupled) deployment with your website and custom forms/portals, with optional CMS connectors where useful. CiviCRM is not headless-native, but supports strong API-driven integration patterns.  
 **Core features:** 4.5/5 fit for events, donations, memberships, and volunteers; all core features are available in a nonprofit-native model. Robustness: high. Complexity: high (setup/admin).
 
 **Best for:** Organizations that want nonprofit-specific depth and full control over their data stack.  
-**What it is:** Open-source CRM built specifically for nonprofits, often used with WordPress.  
+**What it is:** Open-source CRM built specifically for nonprofits, commonly CMS-attached but also deployable in standalone/decoupled architectures.  
 **Strengths:** Memberships, donations, events, and reporting are all nonprofit-native; no per-seat software fees; high control and extensibility.  
 **Tradeoffs:** Requires hosting and technical setup; interface can feel dated; ongoing admin overhead is higher than SaaS options.  
 **Cost profile:** Software is free; hosting is typically around $20-$40/month; setup/admin time is the biggest cost.  
-**Good fit if you need:** Maximum flexibility and ownership, and you are comfortable operating a WordPress/plugin-style ecosystem.
+**Good fit if you need:** Maximum flexibility and ownership, and you are comfortable operating a self-hosted CRM with API-driven integrations.
+**Temple Foundation deployment note:** Assumed implementation is standalone/decoupled CiviCRM (not a WordPress plugin dependency).
 
 ### 9) Aplos
 
@@ -277,6 +280,32 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Tradeoffs:** Higher setup/admin complexity and longer time-to-value than lighter nonprofit SMB platforms.  
 **Good fit if you need:** A highly configurable enterprise CRM foundation with strong integration depth across fundraising and operations.
 
+### 19) Attio
+
+**Type:** CRM Platform  
+**Pricing model:** Per-user SaaS pricing with tiered feature plans; total cost depends on team size, workflow automation needs, and connected tool stack. Donation/payment fees are typically via connected fundraising/payment tools (~2.2%-2.9% + $0.30/card transaction where applicable).  
+**Website integration robustness (1-5):** 4/5  
+**Website integration approach:** API-driven CRM integration with custom forms, workflow automations, and connected fundraising/event tools to map nonprofit entities into Attio records.  
+**Core features:** 3.5/5 fit for events, donations, memberships, and volunteers; relationship modeling and automation are strong, while nonprofit-native donations/memberships/volunteer workflows usually require connected tools and careful configuration. Robustness: moderate-to-high. Complexity: medium-to-high.
+
+**Best for:** Teams that want a modern, flexible CRM interface and are comfortable building a connected nonprofit operations stack around it.  
+**Strengths:** Modern UX, strong customizable data model, flexible automation potential, and good fit for relationship-centric workflows.  
+**Tradeoffs:** Not nonprofit-native out of the box; core fundraising/membership/volunteer operations often require additional systems and integration discipline.  
+**Good fit if you need:** A highly adaptable CRM core and are willing to compose nonprofit-specific functionality through integrations.
+
+### 20) Autoreach
+
+**Type:** CRM + Outreach Automation Platform  
+**Pricing model:** SaaS subscription (typically seat/workflow-tier driven) plus any connected fundraising/payment tooling costs. Effective spend varies by automation volume, contacts, and integration scope.  
+**Website integration robustness (1-5):** 3/5  
+**Website integration approach:** API and connector-based integration for contact pipelines and outreach workflows; donations/events/memberships/volunteer operations typically rely on connected nonprofit/fundraising systems.  
+**Core features:** 3/5 fit for events, donations, memberships, and volunteers; outreach and relationship workflows are stronger than nonprofit-native operations, which usually need integrations and custom process design. Robustness: moderate with integrations. Complexity: medium-to-high.
+
+**Best for:** Teams prioritizing outreach automation and relationship workflows while composing nonprofit operational features from adjacent tools.  
+**Strengths:** Strong automation orientation, flexible outreach pipeline management, and potential fit for engagement-heavy operating models.  
+**Tradeoffs:** Limited nonprofit-native depth for donations/memberships/volunteer management without a broader integrated stack.  
+**Good fit if you need:** Outreach-centric CRM capabilities and are comfortable integrating dedicated tools for fundraising and volunteer operations.
+
 ## Custom Options Rundown
 
 ### A) Composable Stack (Next.js + Payload + Best-of-Breed Tools) [documentation](composable_nonprofit_stack.md)
@@ -331,6 +360,8 @@ Given an early-stage, budget-sensitive nonprofit with event + donor priorities, 
 - **Volunteer-forward all-in-one candidate:** Giveffect
 - **Consolidated enterprise candidate:** CharityEngine
 - **Enterprise Microsoft candidate:** Microsoft Dynamics 365
+- **Modern flexible CRM candidate:** Attio
+- **Outreach automation candidate:** Autoreach
 - **Custom architecture candidate:** Composable Stack (Next.js + Payload + APIs)
 - **Custom backend candidate:** Supabase-Based Nonprofit Platform
 - **Stretch/scale candidate (future):** Salesforce Nonprofit Cloud
