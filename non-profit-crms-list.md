@@ -27,6 +27,8 @@ Ordered by estimated fit for Temple Foundation (early-stage, budget-sensitive, l
 17. CharityEngine
 18. Microsoft Dynamics 365 (Nonprofit stack)
 
+## Custom Options
+
 A. [Composable Stack (Next.js + Payload + Best-of-Breed Tools)](composable_nonprofit_stack.md)
 B. [Supabase-Based Nonprofit Platform](supabase_nonprofit_platform.md)
 
@@ -275,6 +277,8 @@ Ballpark costs below are directional estimates (as of 2026) and vary by contacts
 **Tradeoffs:** Higher setup/admin complexity and longer time-to-value than lighter nonprofit SMB platforms.  
 **Good fit if you need:** A highly configurable enterprise CRM foundation with strong integration depth across fundraising and operations.
 
+## Custom Options Rundown
+
 ### A) Composable Stack (Next.js + Payload + Best-of-Breed Tools) [documentation](composable_nonprofit_stack.md)
 
 **Type:** Architecture Option (Composable Stack)  
@@ -330,6 +334,8 @@ Given an early-stage, budget-sensitive nonprofit with event + donor priorities, 
 - **Custom backend candidate:** Supabase-Based Nonprofit Platform
 - **Stretch/scale candidate (future):** Salesforce Nonprofit Cloud
 - **Enterprise benchmark (likely heavier):** Blackbaud Raiser’s Edge NXT
+
+**Strategic note:** The custom options (Composable Stack and Supabase-Based Platform) can intentionally target a gap in the nonprofit CRM ecosystem and, with sustained investment in productization, potentially mature into a reusable product over time. This path requires meaningful effort in architecture, reliability, support, security/compliance, and go-to-market discipline.
 
 ## Evaluation Notes
 
