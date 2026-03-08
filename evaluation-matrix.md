@@ -170,7 +170,7 @@ Jobber contact sync is typically handled through integration middleware (for exa
 ### Note 11: Newly Added Criteria Review Status
 
 <a id="note-11"></a>
-Rows marked with `*` were added by the user and are currently included for visibility, but necessity has not yet been evaluated.
+Rows marked with `[*]` were added later, and not yet evaluated for priority.
 
 ## Evaluation Rules
 
