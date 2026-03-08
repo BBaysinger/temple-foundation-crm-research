@@ -10,13 +10,13 @@
 
 - `✅` Present (native)
 - `🟡` Available with configuration or native add-on (no external product required)
-- `[#]` Depends on separate external product, and is known to integrate (note names product)
+- `[#]` Depends on separate external product, and is known to integrate (linked footnote names product)
 - `❓` Unconfirmed (criteria that always have a value, such as pricing)
 - `❌` Not present
 
 ## Key: Notes Marker
 
-- `[#]` Click marker to jump to numbered note/context
+- `[#]` Click marker to jump to numbered footnote/context
 
 | Criteria & Priority                                                              | CiviCRM      | Pipedrive    | Zeffy        | DonorView    | Givebutter   | Bloomerang   | Givebutter + Bloomerang | Neon CRM     |
 | -------------------------------------------------------------------------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ----------------------- | ------------ |
