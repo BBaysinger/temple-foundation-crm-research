@@ -11,7 +11,7 @@
 - `✅` Present (native)
 - `🟡` Available with configuration or native add-on (no external product required)
 - `[#]` Depends on separate external product, and is known to integrate (linked footnote names product)
-- `❓` Unconfirmed (criteria that always have a value, such as pricing)
+- `❓` Unconfirmed (criteria that always have a value, but value unconfirmed, such as pricing)
 - `❌` Not present
 
 ## Key: Notes Marker
