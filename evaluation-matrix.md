@@ -92,7 +92,7 @@
 | Monthly platform cost fits target budget ✅                                      | ✅           | 🟡           | ✅           | ❓           | ✅           | ❓           | ❓                      | ❓           |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | 🟡           |
 | New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | 🟡           |
-| Score (✅=2, 🟡/[#]=1, ❓=0, ❌=0)                                               | 119          | 103          | 75           | 75           | 110          | 106          | 110                     | 113          |
+| Score (✅=2, 🟡/[#]=1, ❓=0, ❌=0)                                               | 119          | 103          | 75           | 75           | 106          | 93           | 110                     | 113          |
 
 ## Notes
 
