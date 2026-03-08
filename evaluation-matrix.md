@@ -1,6 +1,6 @@
 # CRM Evaluation Matrix
 
-## Key: Priority
+## Key: Feature Priority
 
 - `✅` Required
 - `🟡` Possibly required (probably)
@@ -10,8 +10,8 @@
 
 - `✅` Present (native)
 - `🟡` Available with configuration or native add-on (no external product required)
-- `[#]` Depends on separate external product, and is known to integrate (linked footnote names product)
-- `❓` Unconfirmed (criteria that always have a value, but value unconfirmed, such as pricing)
+- `[#]` Depends on separate external product, but known to integrate (linked footnote names product)
+- `❓` Yet to be confirmed
 - `❌` Not present
 
 ## Key: Notes Marker
