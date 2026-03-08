@@ -86,13 +86,16 @@
 | PayPal integration 🟡                                                            | ✅           | 🟡           | ❌           | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | QuickBooks integration ✅                                                        | 🟡           | ✅           | [7](#note-7) | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | Cashapp/Venmo ✅                                                                 | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6)            | [6](#note-6) |
-| Website integration path (embed/plugin/API) ✅                                   | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
+| Embeddable forms/widgets flexibility ✅                                          | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
+| API/webhook depth for custom site workflows ✅                                   | ✅           | ✅           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | ✅           |
+| CMS/plugin ecosystem support 🟡                                                  | ✅           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | QuickBooks class-tracking compatibility/workaround ✅                            | 🟡           | 🟡           | [7](#note-7) | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | Alternate ways to collect money 🟡                                               | 🟡           | 🟡           | 🟡           | 🟡           | ✅           | 🟡           | ✅                      | 🟡           |
 | Monthly platform cost fits target budget ✅                                      | ✅           | 🟡           | ✅           | ❓           | ✅           | ❓           | ❓                      | ❓           |
+| Initial setup/config/deployment simplicity ✅                                    | ❌           | ✅           | ✅           | 🟡           | ✅           | ✅           | 🟡                      | 🟡           |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
 | New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
-| Score (✅=3, 🟡=2, [#]=1, ❓=0, ❌=0)                                            | 188          | 168          | 123          | 175          | 168          | 151          | 173                     | 180          |
+| Score (✅=3, 🟡=2, [#]=1, ❓=0, ❌=0)                                            | 194          | 175          | 130          | 181          | 175          | 158          | 179                     | 187          |
 
 ## Notes
 
