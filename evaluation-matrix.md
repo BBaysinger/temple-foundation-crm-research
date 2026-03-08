@@ -101,9 +101,19 @@
 | Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
 | Initial setup/config/deployment simplicity ✅                                    | ❌             | ✅             | ✅             | 🟡             | ✅             | ✅             | 🟡                      | 🟡             |
 | Scalability switch risk [\*](#note-11)                                           | ✅             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | ✅                      | ✅             |
+| Data migration complexity [\*](#note-11)                                         | 🟡             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | ❌                      | 🟡             |
+| Duplicate detection + merge quality [\*](#note-11)                               | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
+| Permission granularity (field/module level) [\*](#note-11)                       | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
+| Audit trail/compliance logging [\*](#note-11)                                    | 🟡             | 🟡             | ❌             | 🟡             | 🟡             | ✅             | 🟡                      | ✅             |
+| Workflow automation depth (multi-step, branching) [\*](#note-11)                 | 🟡             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Sandbox/testing environment availability [\*](#note-11)                          | ✅             | ❌             | ❌             | ❌             | ❌             | ❌             | ❌                      | ❌             |
+| Backup/export resilience (full-fidelity exit path) [\*](#note-11)                | ✅             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Support quality + implementation partner ecosystem [\*](#note-11)                | 🟡             | ✅             | 🟡             | 🟡             | 🟡             | ✅             | 🟡                      | ✅             |
+| API rate limits and integration reliability at scale [\*](#note-11)              | ✅             | 🟡             | ❌             | 🟠             | 🟠             | 🟡             | 🟠                      | 🟡             |
+| Record model flexibility for nonprofit edge cases [\*](#note-11)                 | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
-| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 212            | 191            | 134            | 193            | 185            | 167            | 190                     | 202            |
+| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 238            | 211            | 138            | 210            | 196            | 187            | 205                     | 225            |
 
 ## Notes
 
