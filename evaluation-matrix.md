@@ -9,12 +9,13 @@
 ## Key: Feature Availability (per CRM)
 
 - `✅` Feature present (native)
-- `🟡` Feature present with extension/configuration/workaround
+- `🟡` Feature available via CRM configuration or native add-on (no separate full external product required)
 - `❌` Feature not present
 
 ## Key: Notes Marker
 
 - `[#]` Click marker to jump to numbered note/context
+- `[#]` Use this marker when a feature depends on a separate external product integration (note must name the product)
 
 | Criteria & Priority                                                              | CiviCRM      | Pipedrive    | Zeffy | DonorView | Givebutter | Bloomerang | Neon CRM |
 | -------------------------------------------------------------------------------- | ------------ | ------------ | ----- | --------- | ---------- | ---------- | -------- |
@@ -123,3 +124,10 @@ Pipedrive can integrate with event tools for contact/deal sync and registration 
 
 <a id="note-6"></a>
 Cash App and Venmo are generally collected through external payment tools and then recorded/synced into the CRM; this is feasible operationally but not a native in-CRM payment rail.
+
+## Evaluation Rules
+
+- `✅` Use when the feature is natively present in the CRM.
+- `[#]` Use when the feature is achievable only by integrating a separate external product/platform. The note must name the specific product(s) used.
+- `🟡` Use when the feature is achievable inside the CRM via configuration, workflow setup, or native add-ons/extensions, without requiring a separate full external product.
+- `❌` Use when the feature is not available and not reasonably integratable.
