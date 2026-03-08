@@ -8,15 +8,15 @@
 
 ## Key: Feature Availability (per CRM)
 
-- `✅` Feature present (native)
-- `🟡` Feature available via CRM configuration or native add-on (no separate full external product required)
-- `❓` Feature unconfirmed (use only for criteria that always have a value, such as pricing)
-- `❌` Feature not present
+- `✅` Present (native)
+- `🟡` Available configuration or native add-on (no external product required)
+- `[#]` Depends on separate external product, and is known to integrate (note names product)
+- `❓` Unconfirmed (criteria that always have a value, such as pricing)
+- `❌` Not present
 
 ## Key: Notes Marker
 
 - `[#]` Click marker to jump to numbered note/context
-- `[#]` Use this marker when a feature depends on a separate external product integration (note must name the product)
 
 | Criteria & Priority                                                              | CiviCRM      | Pipedrive    | Zeffy        | DonorView    | Givebutter   | Bloomerang   | Givebutter + Bloomerang | Neon CRM     |
 | -------------------------------------------------------------------------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ----------------------- | ------------ |
