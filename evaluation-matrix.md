@@ -96,6 +96,7 @@
 | API/webhook depth for custom site workflows ✅                                   | ✅             | ✅             | 🟠             | 🟠             | 🟠             | 🟠             | 🟠                      | ✅             |
 | Non-widget implementation path (API-first/headless) ✅                           | ✅             | 🟡             | ❌             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
 | CMS/plugin ecosystem support 🟡                                                  | ✅             | 🟡             | 🟠             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
+| Forkable source code for in-house feature development ✅ [\[\*\]](#note-11)      | ✅             | ❌             | ❌             | ❌             | ❌             | ❌             | ❌                      | ❌             |
 | QuickBooks class-tracking compatibility/workaround ✅                            | 🟡             | 🟡             | [7](#note-7)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Alternate ways to collect money 🟡                                               | 🟡             | 🟡             | 🟡             | 🟡             | ✅             | 🟡             | ✅                      | 🟡             |
 | Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
@@ -113,8 +114,8 @@
 | Record model flexibility for nonprofit edge cases 🟡 [\[\*\]](#note-11)          | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
-| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 238            | 211            | 138            | 210            | 196            | 187            | 205                     | 225            |
-| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 603            | 539            | 362            | 537            | 503            | 476            | 524                     | 575            |
+| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 241            | 211            | 138            | 210            | 196            | 187            | 205                     | 225            |
+| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 612            | 539            | 362            | 537            | 503            | 476            | 524                     | 575            |
 
 ## Notes
 
@@ -175,7 +176,7 @@ Rows marked with `[*]` were added later; priorities are now assigned, but the ma
 
 ## Evaluation Rules
 
-- `✅` Feature is natively present in the CRM.
+- `✅` Feature is natively available by default in the CRM.
 - `🟡` Feature is achievable end-to-end in the CRM (configuration/workflow/native add-ons), but may require higher implementation effort.
 - `🟠` Feature is only partially implemented (usable for some scenarios, but with meaningful coverage gaps).
 - `[#]` Feature depends on a separate external product/platform integration. The linked note must name the external product. Do not use this when the external path cannot practically integrate back into the core CRM workflow.
