@@ -19,85 +19,90 @@
 
 - `[#]` Click marker to jump to numbered footnote/context
 
-| Criteria & Priority                                                              | CiviCRM      | Pipedrive    | Zeffy        | DonorView    | Givebutter   | Bloomerang   | Givebutter + Bloomerang | Neon CRM     |
-| -------------------------------------------------------------------------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ----------------------- | ------------ |
-| Contact records ✅                                                               | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Custom fields ✅                                                                 | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Tagging ✅                                                                       | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Segmentation ✅                                                                  | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Notes on records ✅                                                              | ✅           | ✅           | ❌           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| File attachments ✅                                                              | ✅           | ✅           | ❌           | ✅           | 🟡           | ✅           | ✅                      | ✅           |
-| Contact timelines ✅                                                             | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Interaction history ❓                                                           | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Activity tracking ❓                                                             | ✅           | ✅           | ❌           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Call logging ❓                                                                  | ✅           | ✅           | ❌           | 🟡           | ❌           | ❌           | ❌                      | ❌           |
-| Data import/export (CSV) ✅                                                      | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Constituent self-service portal (profile + preferences) ✅                       | 🟡           | [3](#note-3) | ❌           | ❌           | ❌           | ❌           | ❌                      | 🟡           |
-| Role-based access control (admin vs staff) ✅                                    | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| One-time donations ✅                                                            | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Recurring donations ✅                                                           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Donation forms (embeddable) ✅                                                   | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Campaign tracking ✅                                                             | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Pledge tracking ✅                                                               | ✅           | 🟡           | ❌           | 🟡           | ❌           | ✅           | ✅                      | ✅           |
-| Donation receipts (auto-generated) ❓                                            | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Tax receipt generation ❓                                                        | ✅           | [4](#note-4) | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Offline donation entry ✅                                                        | ✅           | 🟡           | 🟡           | ✅           | 🟡           | ✅           | ✅                      | ✅           |
-| Fund allocation tracking (annual, monthly, endowment, critical solicitations) ✅ | ✅           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Grant tracking 🟡                                                                | ✅           | 🟡           | ❌           | 🟡           | ❌           | ❌           | ❌                      | 🟡           |
-| Donor tiers ❓                                                                   | 🟡           | ✅           | 🟡           | ✅           | 🟡           | ✅           | ✅                      | ✅           |
-| Donor lifetime value calculation ✅                                              | 🟡           | 🟡           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Donor segmentation ✅                                                            | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Matching gift workflow automation 🟡                                             | 🟡           | 🟡           | ❌           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Planned giving / legacy gift tracking ✅                                         | 🟡           | 🟡           | ❌           | 🟡           | ❌           | 🟡           | 🟡                      | 🟡           |
-| Grant deadline and reporting workflow reminders 🟡                               | 🟡           | ✅           | ❌           | 🟡           | ❌           | ❌           | ❌                      | 🟡           |
-| Donation acknowledgement automation (beyond receipts) ✅                         | 🟡           | 🟡           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Event creation ✅                                                                | ✅           | 🟡           | ✅           | ✅           | ✅           | 🟡           | ✅                      | ✅           |
-| Event landing pages ❓                                                           | ✅           | [5](#note-5) | ✅           | 🟡           | ✅           | 🟡           | ✅                      | ✅           |
-| Event ticketing ❓                                                               | ✅           | [5](#note-5) | ✅           | 🟡           | ✅           | 🟡           | ✅                      | ✅           |
-| RSVP tracking ✅                                                                 | ✅           | 🟡           | ✅           | ✅           | ✅           | 🟡           | ✅                      | ✅           |
-| Guest list management 🟡                                                         | ✅           | 🟡           | ✅           | ✅           | ✅           | 🟡           | ✅                      | ✅           |
-| Waitlist management 🟡                                                           | 🟡           | ❌           | ❌           | ❌           | 🟡           | ❌           | 🟡                      | 🟡           |
-| Event capacity limits ✅                                                         | ✅           | ❌           | ✅           | 🟡           | ✅           | 🟡           | ✅                      | ✅           |
-| Event reminder automation ✅                                                     | ✅           | 🟡           | 🟡           | ✅           | ✅           | 🟡           | ✅                      | ✅           |
-| Event feedback surveys ✅                                                        | 🟡           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Event revenue tracking ✅                                                        | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Automated post-event follow-up workflows 🟡                                      | 🟡           | ✅           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Event registration forms/workflows ✅                                            | ✅           | 🟡           | ✅           | ✅           | ✅           | 🟡           | ✅                      | ✅           |
-| Automated event confirmations ✅                                                 | ✅           | 🟡           | ✅           | ✅           | ✅           | 🟡           | ✅                      | ✅           |
-| Volunteer sign-up forms ✅                                                       | 🟡           | 🟡           | ✅           | 🟡           | 🟡           | ❌           | 🟡                      | 🟡           |
-| Skills tracking 🟡                                                               | 🟡           | 🟡           | ❌           | ❌           | ❌           | ❌           | ❌                      | 🟡           |
-| Membership renewal reminders ✅                                                  | ✅           | 🟡           | 🟡           | ✅           | 🟡           | 🟡           | 🟡                      | ✅           |
-| Membership dues processing ✅                                                    | ✅           | 🟡           | ✅           | ✅           | 🟡           | 🟡           | 🟡                      | ✅           |
-| Volunteer engagement history ✅                                                  | 🟡           | ✅           | ❌           | 🟡           | ❌           | ❌           | ❌                      | 🟡           |
-| Volunteer categorization and tagging ✅                                          | ✅           | ✅           | ❌           | 🟡           | 🟡           | ❌           | 🟡                      | 🟡           |
-| Automated volunteer communication (SMS + email) ✅                               | 🟡           | 🟡           | ❌           | ❌           | 🟡           | ❌           | 🟡                      | 🟡           |
-| Auto-populate volunteer past participation ✅                                    | 🟡           | 🟡           | ❌           | 🟡           | ❌           | ❌           | ❌                      | 🟡           |
-| Email campaign builder ✅                                                        | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Email templates ✅                                                               | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Automated welcome sequences 🟡                                                   | 🟡           | ✅           | ❌           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Triggered emails ❓                                                              | 🟡           | ✅           | ❌           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Email open tracking 🟡                                                           | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Click tracking 🟡                                                                | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Unsubscribe management 🟡                                                        | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| SMS marketing ✅                                                                 | 🟡           | 🟡           | ❌           | ❌           | ✅           | ❌           | ✅                      | 🟡           |
-| Newsletter management ✅                                                         | ✅           | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Revenue reporting ✅                                                             | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| Campaign ROI tracking ❓                                                         | 🟡           | 🟡           | [8](#note-8) | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Stripe integration 🟡                                                            | ✅           | ✅           | ❌           | ✅           | ✅           | 🟡           | ✅                      | 🟡           |
-| PayPal integration 🟡                                                            | ✅           | 🟡           | ❌           | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| QuickBooks integration ✅                                                        | 🟡           | ✅           | [7](#note-7) | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Cashapp/Venmo ✅                                                                 | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6)            | [6](#note-6) |
-| Embeddable forms/widgets flexibility ✅                                          | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| API/webhook depth for custom site workflows ✅                                   | ✅           | ✅           | 🟠           | 🟠           | 🟠           | 🟠           | 🟠                      | ✅           |
-| Non-widget implementation path (API-first/headless) ✅                           | ✅           | 🟡           | ❌           | 🟠           | 🟠           | 🟠           | 🟠                      | 🟠           |
-| CMS/plugin ecosystem support 🟡                                                  | ✅           | 🟡           | 🟠           | 🟠           | 🟠           | 🟠           | 🟠                      | 🟠           |
-| QuickBooks class-tracking compatibility/workaround ✅                            | 🟡           | 🟡           | [7](#note-7) | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Alternate ways to collect money 🟡                                               | 🟡           | 🟡           | 🟡           | 🟡           | ✅           | 🟡           | ✅                      | 🟡           |
-| Monthly platform cost fits target budget ✅                                      | ✅           | 🟡           | ✅           | ❓           | ✅           | ❓           | ❓                      | ❓           |
-| Initial setup/config/deployment simplicity ✅                                    | ❌           | ✅           | ✅           | 🟡           | ✅           | ✅           | 🟡                      | 🟡           |
-| Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
-| New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
-| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 197          | 177          | 128          | 180          | 174          | 157          | 178                     | 187          |
+| Criteria & Priority                                                              | CiviCRM        | Pipedrive      | Zeffy          | DonorView      | Givebutter     | Bloomerang     | Givebutter + Bloomerang | Neon CRM       |
+| -------------------------------------------------------------------------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | ----------------------- | -------------- |
+| Contact records ✅                                                               | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Custom fields ✅                                                                 | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Tagging ✅                                                                       | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Segmentation ✅                                                                  | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Notes on records ✅                                                              | ✅             | ✅             | ❌             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| File attachments ✅                                                              | ✅             | ✅             | ❌             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
+| Contact timelines ✅                                                             | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Interaction history ❓                                                           | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Activity tracking ❓                                                             | ✅             | ✅             | ❌             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Call logging ❓                                                                  | ✅             | ✅             | ❌             | 🟡             | ❌             | ❌             | ❌                      | ❌             |
+| Data import/export (CSV) ✅                                                      | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Constituent self-service portal (profile + preferences) ✅                       | 🟡             | [3](#note-3)   | ❌             | ❌             | ❌             | ❌             | ❌                      | 🟡             |
+| Role-based access control (admin vs staff) ✅                                    | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| One-time donations ✅                                                            | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Recurring donations ✅                                                           | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Donation forms (embeddable) ✅                                                   | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Campaign tracking ✅                                                             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Pledge tracking ✅                                                               | ✅             | 🟡             | ❌             | 🟡             | ❌             | ✅             | ✅                      | ✅             |
+| Donation receipts (auto-generated) ❓                                            | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Tax receipt generation ❓                                                        | ✅             | [4](#note-4)   | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Offline donation entry ✅                                                        | ✅             | 🟡             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
+| Fund allocation tracking (annual, monthly, endowment, critical solicitations) ✅ | ✅             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Revenue categories (by program/fund/campaign) ✅                                 | ✅             | 🟡             | 🟡             | ✅             | 🟡             | 🟡             | 🟡                      | ✅             |
+| Grant tracking 🟡                                                                | ✅             | 🟡             | ❌             | 🟡             | ❌             | ❌             | ❌                      | 🟡             |
+| Donor tiers ❓                                                                   | 🟡             | ✅             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
+| Donor lifetime value calculation ✅                                              | 🟡             | 🟡             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Donor segmentation ✅                                                            | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Matching gift workflow automation 🟡                                             | 🟡             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Planned giving / legacy gift tracking ✅                                         | 🟡             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | 🟡             |
+| Grant deadline and reporting workflow reminders 🟡                               | 🟡             | ✅             | ❌             | 🟡             | ❌             | ❌             | ❌                      | 🟡             |
+| Donation acknowledgement automation (beyond receipts) ✅                         | 🟡             | 🟡             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Event creation ✅                                                                | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
+| Event landing pages ❓                                                           | ✅             | [5](#note-5)   | ✅             | 🟡             | ✅             | 🟡             | ✅                      | ✅             |
+| Event ticketing ❓                                                               | ✅             | [5](#note-5)   | ✅             | 🟡             | ✅             | 🟡             | ✅                      | ✅             |
+| RSVP tracking ✅                                                                 | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
+| Guest list management 🟡                                                         | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
+| Waitlist management 🟡                                                           | 🟡             | ❌             | ❌             | ❌             | 🟡             | ❌             | 🟡                      | 🟡             |
+| Event capacity limits ✅                                                         | ✅             | ❌             | ✅             | 🟡             | ✅             | 🟡             | ✅                      | ✅             |
+| Event reminder automation ✅                                                     | ✅             | 🟡             | 🟡             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
+| Event feedback surveys ✅                                                        | 🟡             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Event revenue tracking ✅                                                        | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Automated post-event follow-up workflows 🟡                                      | 🟡             | ✅             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Event registration forms/workflows ✅                                            | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
+| Automated event confirmations ✅                                                 | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
+| Volunteer sign-up forms ✅                                                       | 🟡             | 🟡             | ✅             | 🟡             | 🟡             | ❌             | 🟡                      | 🟡             |
+| Skills tracking 🟡                                                               | 🟡             | 🟡             | ❌             | ❌             | ❌             | ❌             | ❌                      | 🟡             |
+| Membership renewal reminders ✅                                                  | ✅             | 🟡             | 🟡             | ✅             | 🟡             | 🟡             | 🟡                      | ✅             |
+| Membership dues processing ✅                                                    | ✅             | 🟡             | ✅             | ✅             | 🟡             | 🟡             | 🟡                      | ✅             |
+| Volunteer coordination history (assignments/shifts/tasks) ✅                     | 🟡             | ✅             | ❌             | 🟠             | ❌             | ❌             | ❌                      | 🟡             |
+| Volunteer participation history ✅                                               | ✅             | ✅             | ❌             | 🟡             | 🟡             | ❌             | 🟠                      | ✅             |
+| Volunteer categorization and tagging ✅                                          | ✅             | ✅             | ❌             | 🟡             | 🟡             | ❌             | 🟡                      | 🟡             |
+| Automated volunteer communication (SMS + email) ✅                               | 🟡             | 🟡             | ❌             | ❌             | 🟡             | ❌             | 🟡                      | 🟡             |
+| Auto-populate volunteer past participation ✅                                    | 🟡             | 🟡             | ❌             | 🟡             | ❌             | ❌             | ❌                      | 🟡             |
+| Email campaign builder ✅                                                        | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Email templates ✅                                                               | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Email subgroups ✅                                                               | ✅             | ✅             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
+| Automated welcome sequences 🟡                                                   | 🟡             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Triggered emails ❓                                                              | 🟡             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Email open tracking 🟡                                                           | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Click tracking 🟡                                                                | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Unsubscribe management 🟡                                                        | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| SMS marketing ✅                                                                 | 🟡             | 🟡             | ❌             | ❌             | ✅             | ❌             | ✅                      | 🟡             |
+| Newsletter management ✅                                                         | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Revenue reporting ✅                                                             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| Campaign ROI tracking ❓                                                         | 🟡             | 🟡             | [8](#note-8)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Stripe integration 🟡                                                            | ✅             | ✅             | ❌             | ✅             | ✅             | 🟡             | ✅                      | 🟡             |
+| PayPal integration 🟡                                                            | ✅             | 🟡             | ❌             | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| QuickBooks integration ✅                                                        | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Accounting linkage (sync to accounting system) ✅                                | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Cashapp/Venmo ✅                                                                 | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)            | [6](#note-6)   |
+| Jobber contact sync ✅                                                           | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10)          | [10](#note-10) |
+| Embeddable forms/widgets flexibility ✅                                          | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
+| API/webhook depth for custom site workflows ✅                                   | ✅             | ✅             | 🟠             | 🟠             | 🟠             | 🟠             | 🟠                      | ✅             |
+| Non-widget implementation path (API-first/headless) ✅                           | ✅             | 🟡             | ❌             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
+| CMS/plugin ecosystem support 🟡                                                  | ✅             | 🟡             | 🟠             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
+| QuickBooks class-tracking compatibility/workaround ✅                            | 🟡             | 🟡             | [7](#note-7)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Alternate ways to collect money 🟡                                               | 🟡             | 🟡             | 🟡             | 🟡             | ✅             | 🟡             | ✅                      | 🟡             |
+| Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
+| Initial setup/config/deployment simplicity ✅                                    | ❌             | ✅             | ✅             | 🟡             | ✅             | ✅             | 🟡                      | 🟡             |
+| Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
+| New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
+| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 209            | 189            | 134            | 191            | 183            | 165            | 187                     | 199            |
 
 ## Notes
 
@@ -145,6 +150,11 @@ Zeffy documents integrations via Zapier (including Google Sheets and other tools
 
 <a id="note-9"></a>
 Neon CRM onboarding and ongoing administration are generally steeper than turnkey fundraising-first tools, but typically easier and less admin-intensive than CiviCRM.
+
+### Note 10: Jobber Contact Sync Path
+
+<a id="note-10"></a>
+Jobber contact sync is typically handled through integration middleware (for example, Zapier/Make), API workflows, or scheduled CSV exchange so contact records can be mapped and updated in the CRM; this is generally feasible but not a native one-click CRM feature.
 
 ## Evaluation Rules
 
