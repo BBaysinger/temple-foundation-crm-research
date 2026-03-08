@@ -117,7 +117,7 @@ Pipedrive is not tax-receipt-native for donations; organizations typically gener
 ### Note 5: Pipedrive Event Stack
 
 <a id="note-5"></a>
-Event landing pages, ticketing, waitlists, and strict capacity controls are usually handled by an event platform integrated with Pipedrive rather than inside Pipedrive itself.
+Pipedrive can integrate with event tools for contact/deal sync and registration status updates, but waitlists and strict capacity enforcement should remain in the event platform itself (with summary status synced back to Pipedrive via native connectors, Zapier/Make, or API).
 
 ### Note 6: Cash App/Venmo In CRM Context
 
