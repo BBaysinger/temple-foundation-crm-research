@@ -9,7 +9,7 @@
 ## Key: Feature Availability (per CRM)
 
 - `✅` Present (native)
-- `🟡` Available configuration or native add-on (no external product required)
+- `🟡` Available with configuration or native add-on (no external product required)
 - `[#]` Depends on separate external product, and is known to integrate (note names product)
 - `❓` Unconfirmed (criteria that always have a value, such as pricing)
 - `❌` Not present
