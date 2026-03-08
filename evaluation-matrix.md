@@ -10,6 +10,7 @@
 
 - `✅` Feature present (native)
 - `🟡` Feature available via CRM configuration or native add-on (no separate full external product required)
+- `❓` Value exists but is currently unconfirmed (use only for criteria that always have a value, such as pricing)
 - `❌` Feature not present
 
 ## Key: Notes Marker
@@ -91,7 +92,7 @@
 | Monthly platform cost fits target budget ✅                                      | ✅           | 🟡           | ✅           | ✅           |            |            |          |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           |            |            |          |
 | New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           |            |            |          |
-| Score (✅=2, 🟡/[#]=1, ❌=0)                                                     | 119          | 103          | 75           | 75           | 0          | 0          | 0        |
+| Score (✅=2, 🟡/[#]=1, ❓=0, ❌=0)                                               | 119          | 103          | 75           | 75           | 0          | 0          | 0        |
 
 ## Notes
 
@@ -140,4 +141,6 @@ Zeffy documents integrations via Zapier (including Google Sheets and other tools
 - `✅` Use when the feature is natively present in the CRM.
 - `[#]` Use when the feature is achievable only by integrating a separate external product/platform. The note must name the specific product(s) used.
 - `🟡` Use when the feature is achievable inside the CRM via configuration, workflow setup, or native add-ons/extensions, without requiring a separate full external product.
+- `❓` Use when the criterion definitely has a value but the value is not yet confirmed (for example: monthly platform cost). Do not use `❓` as a default for undocumented features.
 - `❌` Use when the feature is not available and not reasonably integratable.
+- Leave a cell blank when that CRM/criterion pair has not been evaluated yet.
