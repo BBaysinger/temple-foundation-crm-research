@@ -85,14 +85,14 @@
 | Stripe integration 🟡                                                            | ✅           | ✅           | ❌           | ✅           | ✅           | 🟡           | ✅                      | 🟡           |
 | PayPal integration 🟡                                                            | ✅           | 🟡           | ❌           | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | QuickBooks integration ✅                                                        | 🟡           | ✅           | [7](#note-7) | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
-| Cashapp/Venmo ✅                                                                 | [6](#note-6) | [6](#note-6) | ❌           | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6)            | [6](#note-6) |
+| Cashapp/Venmo ✅                                                                 | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6)            | [6](#note-6) |
 | Website integration path (embed/plugin/API) ✅                                   | ✅           | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
 | QuickBooks class-tracking compatibility/workaround ✅                            | 🟡           | 🟡           | [7](#note-7) | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | Alternate ways to collect money 🟡                                               | 🟡           | 🟡           | 🟡           | 🟡           | ✅           | 🟡           | ✅                      | 🟡           |
 | Monthly platform cost fits target budget ✅                                      | ✅           | 🟡           | ✅           | ❓           | ✅           | ❓           | ❓                      | ❓           |
-| Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | 🟡           |
-| New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | 🟡           |
-| Score (✅=2, 🟡/[#]=1, ❓=0, ❌=0)                                               | 119          | 103          | 75           | 75           | 106          | 93           | 110                     | 113          |
+| Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
+| New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
+| Score (✅=2, 🟡/[#]=1, ❓=0, ❌=0)                                               | 119          | 103          | 76           | 75           | 106          | 93           | 110                     | 113          |
 
 ## Notes
 
@@ -135,6 +135,11 @@ Zeffy documents QuickBooks connectivity via Zapier (Zeffy trigger -> Zapier -> Q
 
 <a id="note-8"></a>
 Zeffy documents integrations via Zapier (including Google Sheets and other tools) and data export/reporting; campaign ROI tracking can be implemented in an external analytics/reporting tool with Zeffy data synced/exported through that path.
+
+### Note 9: Neon Onboarding and Overhead Context
+
+<a id="note-9"></a>
+Neon CRM onboarding and ongoing administration are generally steeper than turnkey fundraising-first tools, but typically easier and less admin-intensive than CiviCRM.
 
 ## Evaluation Rules
 
