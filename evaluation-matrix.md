@@ -148,10 +148,11 @@ Neon CRM onboarding and ongoing administration are generally steeper than turnke
 
 ## Evaluation Rules
 
-- `✅` Use when the feature is natively present in the CRM.
-- `[#]` Use when the feature is achievable only by integrating a separate external product/platform. The note must name the specific product(s) This should not be used when the externally-available feature can't integrate into the \[core\] product.
-- `🟡` Use when the feature is achievable end-to-end inside the CRM via configuration/workflow/native add-ons (without requiring a separate full external product), but may take higher effort.
-- `🟠` Use when the feature is only partially implemented in the CRM (usable for some cases, but missing important coverage).
-- `❓` Use when the criterion definitely has a value but the value is not yet confirmed (for example: monthly platform cost). Do not use `❓` as a default for undocumented features.
-- `❌` Use when the feature is not available and not reasonably integratable.
-- Leave a cell blank when that CRM/criterion pair has not been evaluated yet.
+- `✅` Feature is natively present in the CRM.
+- `🟡` Feature is achievable end-to-end in the CRM (configuration/workflow/native add-ons), but may require higher implementation effort.
+- `🟠` Feature is only partially implemented (usable for some scenarios, but with meaningful coverage gaps).
+- `[#]` Feature depends on a separate external product/platform integration. The linked note must name the external product. Do not use this when the external path cannot practically integrate back into the core CRM workflow.
+- `❓` Criterion value exists but is not yet confirmed (for example, final pricing fit). Do not use this as a default for undocumented features.
+- `❌` Feature is not available and not reasonably integratable.
+- Blank cell means this CRM/criterion pair has not been evaluated yet.
+- Scoring weights: `✅=3`, `🟡=2`, `🟠=1`, `[#]=1`, `❓=0`, `❌=0`.
