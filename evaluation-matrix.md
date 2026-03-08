@@ -3,8 +3,8 @@
 ## Key: Priority
 
 - `✅` Required
-- `🟡` Possibly required
-- `❓` Don't know
+- `🟡` Possibly required (probably)
+- `❓` Don't know (maybe)
 
 ## Key: Feature Availability (per CRM)
 
