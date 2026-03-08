@@ -61,6 +61,8 @@ This is a nonprofit-focused list of CRM capabilities to consider for current and
     - Warn users of likely duplicates before save/import.
 28. Role-based access control (admin vs staff) - ✅ Required
     - Enforce permission differences between administrators and staff users.
+29. Record model flexibility for nonprofit edge cases - ⚪ Not Required
+    - Support nonprofit-specific structures and edge-case workflows beyond standard donor/contact models.
 
 ## Donations & Fundraising
 
@@ -122,6 +124,8 @@ This is a nonprofit-focused list of CRM capabilities to consider for current and
     - Reconcile processor payouts with recorded gift transactions.
 28. Donation acknowledgement automation (beyond receipts) - ✅ Required
     - Send configurable thank-you and stewardship acknowledgements after gifts.
+29. Revenue categories (by program/fund/campaign) - ✅ Required
+    - Categorize revenue by program, fund, and campaign for stewardship and finance reporting.
 
 ## Event & RSVP Management
 
@@ -212,6 +216,10 @@ This is a nonprofit-focused list of CRM capabilities to consider for current and
     - Trigger outreach and reminders automatically, with internal email handled via Constant Contact.
 16. Auto-populate volunteer past participation - ✅ Required
     - Automatically update each volunteer record with prior events, shifts, and activity history.
+17. Volunteer coordination history (assignments/shifts/tasks) - ✅ Required
+    - Track assignment, scheduling, and task-coordination history per volunteer.
+18. Volunteer participation history - ✅ Required
+    - Track attendance and participation outcomes across volunteer activities.
 
 ## Email & Marketing Automation
 
@@ -251,6 +259,8 @@ This is a nonprofit-focused list of CRM capabilities to consider for current and
     - Design branching lifecycle journeys across constituent segments.
 18. Preference-center integration for subscriptions - ⚪ Not Required
     - Let contacts manage topic and channel subscription preferences.
+19. Email subgroups - ✅ Required
+    - Create and maintain subgroup lists for targeted outreach and segmentation.
 
 ## Reporting & Analytics
 
@@ -310,6 +320,20 @@ This is a nonprofit-focused list of CRM capabilities to consider for current and
     - Account for QuickBooks Simple Start class-tracking limits when tagging programs, grants, or restricted funds.
 13. Alternate ways to collect money - 🟡 Possibly Required
     - Support additional channels such as ACH, wallets, text-to-give, and other non-card collection options.
+14. Accounting linkage (sync to accounting system) - ✅ Required
+    - Keep CRM transaction and finance records synchronized through supported accounting integrations.
+15. Jobber contact sync - ⚪ Not Required
+    - Sync customer/contact records with Jobber or equivalent field-service platforms when needed.
+16. Embeddable forms/widgets flexibility - ✅ Required
+    - Support adaptable embeds/widgets across donation, event, and engagement experiences.
+17. API/webhook depth for custom site workflows - ✅ Required
+    - Provide robust API and webhook capabilities for custom website and middleware workflows.
+18. Non-widget implementation path (API-first/headless) - ✅ Required
+    - Allow fully custom, API-first implementation paths when embedded widgets are insufficient.
+19. CMS/plugin ecosystem support - 🟡 Possibly Required
+    - Offer practical plugin/ecosystem support across common CMS platforms.
+20. API rate limits and integration reliability at scale - ⚪ Not Required
+    - Maintain stable integrations under higher API volume and operational load.
 
 ## Operational & Budget Fit
 
@@ -319,3 +343,17 @@ This is a nonprofit-focused list of CRM capabilities to consider for current and
    - Confirm a small team can operate core workflows without heavy CRM administration.
 3. New-user onboarding usability - ✅ Required
    - Validate that staff can run core tasks after reasonable onboarding.
+4. Initial setup/config/deployment simplicity - ✅ Required
+   - Evaluate initial setup effort, required configuration depth, and deployment complexity.
+5. Scalability switch risk - ✅ Required
+   - Estimate the likelihood of needing to switch platforms as organizational complexity grows.
+6. Data migration complexity - ⚪ Not Required
+   - Assess effort and risk of migrating historical data into or out of the platform.
+7. Workflow automation depth (multi-step, branching) - 🟡 Possibly Required
+   - Support multi-step, conditional, and branching automation beyond basic triggers.
+8. Sandbox/testing environment availability - ⚪ Not Required
+   - Provide safe environments for testing workflows, integrations, and configuration changes.
+9. Backup/export resilience (full-fidelity exit path) - ⚪ Not Required
+   - Ensure complete, usable data export paths for backup and vendor-exit scenarios.
+10. Support quality + implementation partner ecosystem - ⚪ Not Required
+    - Consider vendor support quality and availability of experienced implementation partners.
