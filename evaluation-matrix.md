@@ -9,7 +9,8 @@
 ## Key: Feature Availability (per CRM)
 
 - `✅` Present (native)
-- `🟡` Available with configuration or native add-on (no external product required)
+- `🟡` Available end-to-end with configuration/native add-on, but may be higher effort
+- `🟠` Partially implemented (some workflow coverage, but meaningful gaps remain)
 - `[#]` Depends on separate external product, but known to integrate (linked footnote names product)
 - `❓` Yet to be confirmed
 - `❌` Not present
@@ -87,15 +88,16 @@
 | QuickBooks integration ✅                                                        | 🟡           | ✅           | [7](#note-7) | ✅           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | Cashapp/Venmo ✅                                                                 | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6) | [6](#note-6)            | [6](#note-6) |
 | Embeddable forms/widgets flexibility ✅                                          | ✅           | 🟡           | ✅           | ✅           | ✅           | ✅           | ✅                      | ✅           |
-| API/webhook depth for custom site workflows ✅                                   | ✅           | ✅           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | ✅           |
-| CMS/plugin ecosystem support 🟡                                                  | ✅           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
+| API/webhook depth for custom site workflows ✅                                   | ✅           | ✅           | 🟠           | 🟠           | 🟠           | 🟠           | 🟠                      | ✅           |
+| Non-widget implementation path (API-first/headless) ✅                           | ✅           | 🟡           | ❌           | 🟠           | 🟠           | 🟠           | 🟠                      | 🟠           |
+| CMS/plugin ecosystem support 🟡                                                  | ✅           | 🟡           | 🟠           | 🟠           | 🟠           | 🟠           | 🟠                      | 🟠           |
 | QuickBooks class-tracking compatibility/workaround ✅                            | 🟡           | 🟡           | [7](#note-7) | 🟡           | 🟡           | 🟡           | 🟡                      | 🟡           |
 | Alternate ways to collect money 🟡                                               | 🟡           | 🟡           | 🟡           | 🟡           | ✅           | 🟡           | ✅                      | 🟡           |
 | Monthly platform cost fits target budget ✅                                      | ✅           | 🟡           | ✅           | ❓           | ✅           | ❓           | ❓                      | ❓           |
 | Initial setup/config/deployment simplicity ✅                                    | ❌           | ✅           | ✅           | 🟡           | ✅           | ✅           | 🟡                      | 🟡           |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
 | New-user onboarding usability ✅                                                 | [2](#note-2) | ✅           | ✅           | ✅           | ✅           | ✅           | ✅                      | [9](#note-9) |
-| Score (✅=3, 🟡=2, [#]=1, ❓=0, ❌=0)                                            | 194          | 175          | 130          | 181          | 175          | 158          | 179                     | 187          |
+| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 197          | 177          | 128          | 180          | 174          | 157          | 178                     | 187          |
 
 ## Notes
 
@@ -148,7 +150,8 @@ Neon CRM onboarding and ongoing administration are generally steeper than turnke
 
 - `✅` Use when the feature is natively present in the CRM.
 - `[#]` Use when the feature is achievable only by integrating a separate external product/platform. The note must name the specific product(s) This should not be used when the externally-available feature can't integrate into the \[core\] product.
-- `🟡` Use when the feature is achievable inside the CRM via configuration, workflow setup, or native add-ons/extensions, without requiring a separate full external product.
+- `🟡` Use when the feature is achievable end-to-end inside the CRM via configuration/workflow/native add-ons (without requiring a separate full external product), but may take higher effort.
+- `🟠` Use when the feature is only partially implemented in the CRM (usable for some cases, but missing important coverage).
 - `❓` Use when the criterion definitely has a value but the value is not yet confirmed (for example: monthly platform cost). Do not use `❓` as a default for undocumented features.
 - `❌` Use when the feature is not available and not reasonably integratable.
 - Leave a cell blank when that CRM/criterion pair has not been evaluated yet.
