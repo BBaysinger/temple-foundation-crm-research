@@ -43,7 +43,7 @@
 | Tax receipt generation ❓                                                        | ✅             | [4](#note-4)   | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Offline donation entry ✅                                                        | ✅             | 🟡             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
 | Fund allocation tracking (annual, monthly, endowment, critical solicitations) ✅ | ✅             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
-| Revenue categories (by program/fund/campaign) ✅                                 | ✅             | 🟡             | 🟡             | ✅             | 🟡             | 🟡             | 🟡                      | ✅             |
+| Revenue categories (by program/fund/campaign) [\*](#note-11)                     | ✅             | 🟡             | 🟡             | ✅             | 🟡             | 🟡             | 🟡                      | ✅             |
 | Grant tracking 🟡                                                                | ✅             | 🟡             | ❌             | 🟡             | ❌             | ❌             | ❌                      | 🟡             |
 | Donor tiers ❓                                                                   | 🟡             | ✅             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
 | Donor lifetime value calculation ✅                                              | 🟡             | 🟡             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
@@ -89,9 +89,9 @@
 | Stripe integration 🟡                                                            | ✅             | ✅             | ❌             | ✅             | ✅             | 🟡             | ✅                      | 🟡             |
 | PayPal integration 🟡                                                            | ✅             | 🟡             | ❌             | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | QuickBooks integration ✅                                                        | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
-| Accounting linkage (sync to accounting system) ✅                                | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Accounting linkage (sync to accounting system) [\*](#note-11)                    | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Cashapp/Venmo ✅                                                                 | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)            | [6](#note-6)   |
-| Jobber contact sync ✅                                                           | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10)          | [10](#note-10) |
+| Jobber contact sync [\*](#note-11)                                               | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10)          | [10](#note-10) |
 | Embeddable forms/widgets flexibility ✅                                          | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | API/webhook depth for custom site workflows ✅                                   | ✅             | ✅             | 🟠             | 🟠             | 🟠             | 🟠             | 🟠                      | ✅             |
 | Non-widget implementation path (API-first/headless) ✅                           | ✅             | 🟡             | ❌             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
@@ -100,6 +100,7 @@
 | Alternate ways to collect money 🟡                                               | 🟡             | 🟡             | 🟡             | 🟡             | ✅             | 🟡             | ✅                      | 🟡             |
 | Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
 | Initial setup/config/deployment simplicity ✅                                    | ❌             | ✅             | ✅             | 🟡             | ✅             | ✅             | 🟡                      | 🟡             |
+| Scalability switch risk [\*](#note-11)                                           |                |                |                |                |                |                |                         |                |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 209            | 189            | 134            | 191            | 183            | 165            | 187                     | 199            |
@@ -155,6 +156,11 @@ Neon CRM onboarding and ongoing administration are generally steeper than turnke
 
 <a id="note-10"></a>
 Jobber contact sync is typically handled through integration middleware (for example, Zapier/Make), API workflows, or scheduled CSV exchange so contact records can be mapped and updated in the CRM; this is generally feasible but not a native one-click CRM feature.
+
+### Note 11: Newly Added Criteria Review Status
+
+<a id="note-11"></a>
+Rows marked with `*` were added by the user and are currently included for visibility, but necessity has not yet been evaluated.
 
 ## Evaluation Rules
 
