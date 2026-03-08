@@ -90,6 +90,7 @@
 | Monthly platform cost fits target budget                                      | ✅       | ✅                          | 🟡                           |       |           |            |            |          |
 | Low ongoing admin overhead                                                    | ✅       | [🟠](#note-civi-admin)      | ✅                           |       |           |            |            |          |
 | New-user onboarding usability                                                 | ✅       | [🟠](#note-civi-onboarding) | ✅                           |       |           |            |            |          |
+| Score (✅=2, 🟡/🟠=1, ❌=0)                                                   |          | 119                         | 105                          | 0     | 0         | 0          | 0          | 0        |
 
 ## Notes
 
