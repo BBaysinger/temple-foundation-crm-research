@@ -100,10 +100,10 @@
 | Alternate ways to collect money 🟡                                               | 🟡             | 🟡             | 🟡             | 🟡             | ✅             | 🟡             | ✅                      | 🟡             |
 | Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
 | Initial setup/config/deployment simplicity ✅                                    | ❌             | ✅             | ✅             | 🟡             | ✅             | ✅             | 🟡                      | 🟡             |
-| Scalability switch risk [\*](#note-11)                                           |                |                |                |                |                |                |                         |                |
+| Scalability switch risk [\*](#note-11)                                           | ✅             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | ✅                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
-| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 209            | 189            | 134            | 191            | 183            | 165            | 187                     | 199            |
+| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 212            | 191            | 134            | 193            | 185            | 167            | 190                     | 202            |
 
 ## Notes
 
