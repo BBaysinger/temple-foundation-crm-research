@@ -1,4 +1,4 @@
-# CRM Evaluation Matrix
+# Non-Profit CRM Evaluation Matrix
 
 ## Key: Feature Priority
 
@@ -100,7 +100,6 @@
 | Forkable source code for in-house feature development ✅ [\[\*\]](#note-11)      | ✅             | ❌             | ❌             | ❌             | ❌             | ❌             | ❌                      | ❌             |
 | QuickBooks class-tracking compatibility/workaround ✅                            | 🛠️             | 🛠️             | [7](#note-7)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Alternate ways to collect money 🟡                                               | 🟡             | 🟡             | 🟡             | 🟡             | ✅             | 🟡             | ✅                      | 🟡             |
-| Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
 | Initial setup/config/deployment simplicity ✅                                    | ❌             | ✅             | ✅             | 🟡             | ✅             | ✅             | 🟡                      | 🟡             |
 | Scalability switch risk ✅ [\[\*\]](#note-11)                                    | ✅             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | ✅                      | ✅             |
 | Data migration complexity ✅ [\[\*\]](#note-11)                                  | 🟡             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | ❌                      | 🟡             |
@@ -115,8 +114,22 @@
 | Record model flexibility for nonprofit edge cases 🟡 [\[\*\]](#note-11)          | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
+| Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
 | Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 206            | 137            | 208            | 195            | 186            | 204                     | 222            |
 | Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 525            | 358            | 534            | 502            | 475            | 523                     | 569            |
+
+## Budget Details
+
+| CRM                     | Budget / Pricing Notes                                                                                          |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------- |
+| CiviCRM                 | No per-seat SaaS fee; hosting/implementation/admin effort drives total cost.                                    |
+| Pipedrive               | Public list price (billed annually, per seat): Lite $14, Growth $39, Premium $59, Ultimate $79; add-ons extra.  |
+| Zeffy                   | Platform is generally no-subscription for core use; payment processing and optional integrations may add costs. |
+| DonorView               | Pricing varies by contacts/features/users; confirm quoted monthly plan for Temple Foundation scope.             |
+| Givebutter              | Platform-first pricing with processor/optional premium features; confirm total monthly operational spend.       |
+| Bloomerang              | Tiered nonprofit pricing; confirm current quote for records/users/modules required.                             |
+| Givebutter + Bloomerang | Combined-stack cost depends on both subscriptions, processors, and integration tooling.                         |
+| Neon CRM                | Tiered nonprofit pricing; confirm quote by contacts, modules, and implementation needs.                         |
 
 ## Notes
 
