@@ -33,7 +33,7 @@
 | Activity tracking ❓                                                             | ✅             | ✅             | ❌             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Call logging ❓                                                                  | ✅             | ✅             | ❌             | 🟡             | ❌             | ❌             | ❌                      | ❌             |
 | Data import/export (CSV) ✅                                                      | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
-| Constituent self-service portal (profile + preferences) ✅                       | 🟡             | [3](#note-3)   | ❌             | ❌             | ❌             | ❌             | ❌                      | 🟡             |
+| Constituent self-service portal (profile + preferences) ✅                       | 🟡             | [3](#note-3)   | 🛠️             | 🛠️             | 🛠️             | 🛠️             | 🛠️                      | 🟡             |
 | Role-based access control (admin vs staff) ✅                                    | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | One-time donations ✅                                                            | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Recurring donations ✅                                                           | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
@@ -51,7 +51,7 @@
 | Donor segmentation ✅                                                            | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Matching gift workflow automation 🟡                                             | 🛠️             | 🛠️             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Planned giving / legacy gift tracking ✅                                         | 🟡             | 🛠️             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | 🟡             |
-| Grant deadline and reporting workflow reminders 🟡                               | 🟡             | ✅             | ❌             | 🟡             | ❌             | ❌             | ❌                      | 🟡             |
+| Grant deadline and reporting workflow reminders 🟡                               | 🟡             | ✅             | 🛠️             | 🟡             | 🛠️             | 🛠️             | 🛠️                      | 🟡             |
 | Donation acknowledgement automation (beyond receipts) ✅                         | 🟡             | 🟡             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Event creation ✅                                                                | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ✅                      | ✅             |
 | Event landing pages ❓                                                           | ✅             | [5](#note-5)   | ✅             | 🟡             | ✅             | 🟡             | ✅                      | ✅             |
@@ -115,8 +115,8 @@
 | Record model flexibility for nonprofit edge cases 🟡 [\[\*\]](#note-11)          | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
-| Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 206            | 135            | 207            | 193            | 184            | 202                     | 222            |
-| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 525            | 353            | 531            | 497            | 470            | 518                     | 569            |
+| Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 206            | 137            | 208            | 195            | 186            | 204                     | 222            |
+| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 525            | 358            | 534            | 502            | 475            | 523                     | 569            |
 
 ## Notes
 
