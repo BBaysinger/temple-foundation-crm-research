@@ -114,7 +114,7 @@
 | Record model flexibility for nonprofit edge cases 🟡 [\[\*\]](#note-11)          | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
-| Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ❌                      | ✅             |
+| Monthly platform cost fits target budget ✅ [Budget Details](#budget-details)    | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ❌                      | ✅             |
 | Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 206            | 137            | 211            | 195            | 188            | 204                     | 225            |
 | Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 525            | 358            | 543            | 502            | 481            | 523                     | 578            |
 
