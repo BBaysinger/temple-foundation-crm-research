@@ -33,6 +33,8 @@ The selected CRM should:
 - [composable_nonprofit_stack.md](composable_nonprofit_stack.md): modern website-as-platform architecture option and rollout guidance
 - [supabase_nonprofit_platform.md](supabase_nonprofit_platform.md): Supabase-first backend architecture for donations, memberships, events, and volunteers
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
+- [implementation-style-matrix.md](implementation-style-matrix.md): implementation and styling options matrix (headless/templates/widgets/CSS control)
+- [civicrm-wordpress-setup-estimates.md](civicrm-wordpress-setup-estimates.md): phased setup steps and timeline estimates for CiviCRM + WordPress
 
 ## Evaluation Workflow
 
