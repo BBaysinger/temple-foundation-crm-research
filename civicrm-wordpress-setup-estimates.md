@@ -16,6 +16,31 @@ This document provides practical setup steps and estimated timelines for impleme
 - Estimates include configuration, QA, training, and launch support
 - Estimates are calendar-time ranges, not pure engineering hours
 
+## AI/Codex-Assisted Adjustment
+
+These baseline estimates are human-led delivery estimates. If the team uses AI/Codex heavily for implementation support, documentation generation, config drafting, and test/checklist creation, timelines can often improve.
+
+Typical impact ranges:
+
+- Configuration/documentation-heavy tasks: `20-35%` faster
+- Repetitive mapping/report setup: `15-30%` faster
+- Custom integration coding scaffolds: `10-25%` faster
+- Stakeholder decisions, UAT, approvals, and training: usually unchanged
+
+Practical adjusted ranges (same scope assumptions):
+
+- Scope 1 (basic/initial features)
+  - Baseline typical: `5-7 weeks`
+  - AI/Codex-assisted typical: `4-6 weeks`
+- Scope 2 (all required features)
+  - Baseline additive: `+7 to +14 weeks`
+  - AI/Codex-assisted additive: `+6 to +11 weeks`
+- Total from scratch (Scope 1 + Scope 2)
+  - Baseline typical: `12-21 weeks`
+  - AI/Codex-assisted typical: `10-17 weeks`
+
+Use caution with compressed timelines when business rules are still evolving. AI can accelerate execution, but it does not remove the need for stakeholder alignment and acceptance testing.
+
 ## Scope 1: Basic/Initial Features Working
 
 ### Target outcome
