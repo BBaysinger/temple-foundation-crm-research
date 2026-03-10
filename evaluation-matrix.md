@@ -10,6 +10,7 @@
 
 - `✅` Present (native)
 - `🟡` Available end-to-end with configuration/native add-on, but may be higher effort
+- `🛠️` Available only with substantial custom development effort
 - `🟠` Partially implemented (some workflow coverage, but meaningful gaps remain)
 - `[#]` Depends on separate external product, but known to integrate (linked footnote names product)
 - `❓` Yet to be confirmed
@@ -48,7 +49,7 @@
 | Donor tiers ❓                                                                   | 🟡             | ✅             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
 | Donor lifetime value calculation ✅                                              | 🟡             | 🟡             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Donor segmentation ✅                                                            | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
-| Matching gift workflow automation 🟡                                             | 🟡             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Matching gift workflow automation 🟡                                             | 🛠️             | 🟡             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Planned giving / legacy gift tracking ✅                                         | 🟡             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | 🟡             |
 | Grant deadline and reporting workflow reminders 🟡                               | 🟡             | ✅             | ❌             | 🟡             | ❌             | ❌             | ❌                      | 🟡             |
 | Donation acknowledgement automation (beyond receipts) ✅                         | 🟡             | 🟡             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
@@ -77,19 +78,19 @@
 | Email campaign builder ✅                                                        | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Email templates ✅                                                               | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Email subgroups ✅                                                               | ✅             | ✅             | 🟡             | ✅             | 🟡             | ✅             | ✅                      | ✅             |
-| Automated welcome sequences 🟡                                                   | 🟡             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
-| Triggered emails ❓                                                              | 🟡             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Automated welcome sequences 🟡                                                   | 🛠️             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Triggered emails ❓                                                              | 🛠️             | ✅             | ❌             | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Email open tracking 🟡                                                           | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Click tracking 🟡                                                                | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Unsubscribe management 🟡                                                        | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | SMS marketing ✅                                                                 | 🟡             | 🟡             | ❌             | ❌             | ✅             | ❌             | ✅                      | 🟡             |
 | Newsletter management ✅                                                         | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Revenue reporting ✅                                                             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
-| Campaign ROI tracking ❓                                                         | 🟡             | 🟡             | [8](#note-8)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Campaign ROI tracking ❓                                                         | 🛠️             | 🟡             | [8](#note-8)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Stripe integration 🟡                                                            | ✅             | ✅             | ❌             | ✅             | ✅             | 🟡             | ✅                      | 🟡             |
 | PayPal integration 🟡                                                            | ✅             | 🟡             | ❌             | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
-| QuickBooks integration ✅                                                        | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
-| Accounting linkage (sync to accounting system) ✅ [\[\*\]](#note-11)             | 🟡             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| QuickBooks integration ✅                                                        | 🛠️             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| Accounting linkage (sync to accounting system) ✅ [\[\*\]](#note-11)             | 🛠️             | ✅             | [7](#note-7)   | ✅             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Cashapp/Venmo ✅                                                                 | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)   | [6](#note-6)            | [6](#note-6)   |
 | Jobber contact sync 🟡 [\[\*\]](#note-11)                                        | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10) | [10](#note-10)          | [10](#note-10) |
 | Embeddable forms/widgets flexibility ✅                                          | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
@@ -97,7 +98,7 @@
 | Non-widget implementation path (API-first/headless) ✅                           | ✅             | 🟡             | ❌             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
 | CMS/plugin ecosystem support 🟡                                                  | ✅             | 🟡             | 🟠             | 🟠             | 🟠             | 🟠             | 🟠                      | 🟠             |
 | Forkable source code for in-house feature development ✅ [\[\*\]](#note-11)      | ✅             | ❌             | ❌             | ❌             | ❌             | ❌             | ❌                      | ❌             |
-| QuickBooks class-tracking compatibility/workaround ✅                            | 🟡             | 🟡             | [7](#note-7)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
+| QuickBooks class-tracking compatibility/workaround ✅                            | 🛠️             | 🟡             | [7](#note-7)   | 🟡             | 🟡             | 🟡             | 🟡                      | 🟡             |
 | Alternate ways to collect money 🟡                                               | 🟡             | 🟡             | 🟡             | 🟡             | ✅             | 🟡             | ✅                      | 🟡             |
 | Monthly platform cost fits target budget ✅                                      | ✅             | 🟡             | ✅             | ❓             | ✅             | ❓             | ❓                      | ❓             |
 | Initial setup/config/deployment simplicity ✅                                    | ❌             | ✅             | ✅             | 🟡             | ✅             | ✅             | 🟡                      | 🟡             |
@@ -114,8 +115,8 @@
 | Record model flexibility for nonprofit edge cases 🟡 [\[\*\]](#note-11)          | ✅             | 🟡             | ❌             | 🟡             | ❌             | 🟡             | 🟡                      | ✅             |
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
-| Score (✅=3, 🟡=2, 🟠=1, [#]=1, ❓=0, ❌=0)                                      | 241            | 211            | 138            | 210            | 196            | 187            | 205                     | 225            |
-| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 612            | 539            | 362            | 537            | 503            | 476            | 524                     | 575            |
+| Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 211            | 138            | 210            | 196            | 187            | 205                     | 225            |
+| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 539            | 362            | 537            | 503            | 476            | 524                     | 575            |
 
 ## Notes
 
@@ -178,11 +179,12 @@ Rows marked with `[*]` were added later; priorities are now assigned, but the ma
 
 - `✅` Feature is natively available by default in the CRM.
 - `🟡` Feature is achievable end-to-end in the CRM (configuration/workflow/native add-ons), but may require higher implementation effort.
+- `🛠️` Feature is achievable but requires substantial custom development effort.
 - `🟠` Feature is only partially implemented (usable for some scenarios, but with meaningful coverage gaps).
 - `[#]` Feature depends on a separate external product/platform integration. The linked note must name the external product. Do not use this when the external path cannot practically integrate back into the core CRM workflow.
 - `❓` Criterion value exists but is not yet confirmed (for example, final pricing fit). Do not use this as a default for undocumented features.
 - `❌` Feature is not available and not reasonably integratable.
 - Blank cell means this CRM/criterion pair has not been evaluated yet.
-- Scoring weights: `✅=3`, `🟡=2`, `🟠=1`, `[#]=1`, `❓=0`, `❌=0`.
+- Scoring weights: `✅=3`, `🟡=2`, `🛠️=1`, `🟠=1`, `[#]=1`, `❓=0`, `❌=0`.
 - Priority-weighted scoring: row priority weights are `✅=3`, `🟡=2`, `❓=1`; weighted cell score = `priority weight × availability score`.
 - Rows without a priority marker are excluded from priority-weighted totals until priority is assigned.
