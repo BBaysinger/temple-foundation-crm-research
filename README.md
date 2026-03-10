@@ -9,7 +9,7 @@ The project goal is to identify a CRM that is affordable now, practical for a sm
 ## Current Context
 
 - Early-stage nonprofit with limited administrative staff
-- Cost-sensitive target budget: $50-$100/month
+- Cost-sensitive target budget: $150/month
 - Strong near-term need for event and community engagement tools
 - Website platform not yet finalized
 - Long-term need for clean website integration and low maintenance overhead

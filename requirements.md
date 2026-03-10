@@ -5,7 +5,7 @@ This is a likely-needs baseline derived from current project context. It should 
 ## Assumptions Used
 
 - Early-stage nonprofit with limited admin capacity
-- Monthly software budget target around $50-$100 (excluding payment processing)
+- Monthly software budget target around $150 (excluding payment processing)
 - Immediate focus on donor management, events, and communication
 - Website platform is not finalized yet
 
