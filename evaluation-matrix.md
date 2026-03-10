@@ -12,7 +12,7 @@
 - `🟡` Available end-to-end with configuration/native add-on, but may be higher effort
 - `🛠️` Available only with substantial custom development effort
 - `🟠` Partially implemented (some workflow coverage, but meaningful gaps remain)
-- `[#]` Depends on separate external product, but known to integrate (linked footnote names product)
+- `[#]` Context-qualified viable path (see footnote for tradeoff/caveat/implementation context); scored as workable, not missing
 - `❓` Yet to be confirmed
 - `❌` Not present
 
@@ -33,7 +33,7 @@
 | Activity tracking ❓                                                             | ✅             | ✅             | ❌             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Call logging ❓                                                                  | ✅             | ✅             | ❌             | 🟡             | ❌             | ❌             | ❌                      | ❌             |
 | Data import/export (CSV) ✅                                                      | ✅             | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
-| Constituent self-service portal (profile + preferences) ✅                       | 🟡             | [3](#note-3)   | 🛠️             | 🛠️             | 🛠️             | 🛠️             | 🛠️                      | 🟡             |
+| Constituent self-service portal (profile + preferences) ✅                       | 🟡             | [3](#note-3)   | 🛠️             | 🛠️             | 🛠️             | 🛠️             | 🛠️                      | ✅             |
 | Role-based access control (admin vs staff) ✅                                    | ✅             | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | One-time donations ✅                                                            | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
 | Recurring donations ✅                                                           | ✅             | 🟡             | ✅             | ✅             | ✅             | ✅             | ✅                      | ✅             |
@@ -115,8 +115,8 @@
 | Low ongoing admin overhead ✅                                                    | [1](#note-1)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | New-user onboarding usability ✅                                                 | [2](#note-2)   | ✅             | ✅             | ✅             | ✅             | ✅             | ✅                      | [9](#note-9)   |
 | Monthly platform cost fits target budget ✅ [Budget Details](#budget-details)    | ✅             | 🟡             | ✅             | ✅             | ✅             | 🟡             | ❌                      | ❌             |
-| Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 206            | 137            | 211            | 195            | 188            | 204                     | 222            |
-| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 525            | 358            | 543            | 502            | 481            | 523                     | 569            |
+| Score (✅=3, 🟡=2, 🛠️=1, 🟠=1, [#]=1, ❓=0, ❌=0)                                | 234            | 206            | 137            | 211            | 195            | 188            | 204                     | 223            |
+| Priority-weighted score (Priority: ✅=x3, 🟡=x2, ❓=x1)                          | 597            | 525            | 358            | 543            | 502            | 481            | 523                     | 572            |
 
 ## Budget Details
 
@@ -131,7 +131,7 @@
 | Givebutter + Bloomerang | Combined baseline estimate is Givebutter Plus $29/mo + Bloomerang CRM $125/mo = $154/mo (already above $150 target); adding Bloomerang Fundraising ($40/mo) brings it to $194/mo before processor/integration costs. [Givebutter Pricing](https://givebutter.com/pricing) [Bloomerang Pricing](https://bloomerang.com/pricing/) |
 | Neon CRM                | Published starting prices: Essentials $99/mo, Impact $209/mo, Empower $409/mo; one-time implementation starts at $349. Assumed required tier for current needs: Impact ($209/mo). [Pricing](https://neonone.com/solutions/neon-crm-overview/neon-crm-pricing/)                                                                  |
 
-Note: The same pricing rule is applied to every CRM in this table: use the smallest published tier and a 12-month commitment when available; if a vendor does not publish standard self-serve pricing, the row is marked as quote-dependent.
+Note: The same pricing rule is applied to every CRM in this table: when pricing is constituent/contact based, use the smallest published constituent/contact band and a 12-month commitment when available. For feature-tiered products, use the lowest tier that supports the required workflow scope. If a vendor does not publish standard self-serve pricing, the row is marked as quote-dependent.
 
 ## Notes
 
@@ -196,7 +196,7 @@ Rows marked with `[*]` were added later; priorities are now assigned, but the ma
 - `🟡` Feature is achievable end-to-end in the CRM (configuration/workflow/native add-ons), but may require higher implementation effort.
 - `🛠️` Feature is achievable but requires substantial custom development effort.
 - `🟠` Feature is only partially implemented (usable for some scenarios, but with meaningful coverage gaps).
-- `[#]` Feature depends on a separate external product/platform integration. The linked note must name the external product. Do not use this when the external path cannot practically integrate back into the core CRM workflow.
+- `[#]` Feature is a context-qualified viable path. Use this when a brief note is needed to explain tradeoffs, caveats, or implementation context. This is not a negative/missing-feature marker and should be scored as workable (`1`).
 - `❓` Criterion value exists but is not yet confirmed (for example, final pricing fit). Do not use this as a default for undocumented features.
 - `❌` Feature is not available and not reasonably integratable.
 - Blank cell means this CRM/criterion pair has not been evaluated yet.
