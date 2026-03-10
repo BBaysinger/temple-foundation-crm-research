@@ -41,6 +41,35 @@ Practical adjusted ranges (same scope assumptions):
 
 Use caution with compressed timelines when business rules are still evolving. AI can accelerate execution, but it does not remove the need for stakeholder alignment and acceptance testing.
 
+## Design Fidelity Add-On (Page Styling Depth)
+
+The base estimates in this document assume practical, production-ready styling (brand alignment and usability), not full custom design-system implementation.
+
+If your expectation includes stronger visual fidelity, add the following timeline ranges:
+
+1. Basic brand alignment: `+3 to +6 days`
+
+- Theme-level branding (colors, typography, logo treatment)
+- Light form/page layout cleanup
+- Basic responsive sanity checks
+
+2. Medium fidelity implementation: `+2 to +4 weeks`
+
+- Reusable template overrides for donation/event/member flows
+- Structured style tokens and component-level consistency
+- Expanded responsive QA and accessibility pass for key journeys
+
+3. High fidelity implementation: `+4 to +8+ weeks`
+
+- Design-system-level implementation across all public/portal surfaces
+- Pixel-accurate parity to approved design comps
+- Comprehensive cross-device/browser QA and accessibility remediation
+
+Notes:
+
+- These add-ons are cumulative relative to base scope assumptions.
+- Timeline impact is usually highest when portal/constituent self-service UX is heavily customized.
+
 ## Scope 1: Basic/Initial Features Working
 
 ### Target outcome
