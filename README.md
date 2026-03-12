@@ -41,6 +41,7 @@ The selected CRM should:
 - [time-estimate-docs/civicrm-solo-independent-codex.md](time-estimate-docs/civicrm-solo-independent-codex.md): solo CiviCRM implementation timeline (Codex version)
 - [time-estimate-docs/civicrm-wordpress-setup.md](time-estimate-docs/civicrm-wordpress-setup.md): phased setup steps and timeline estimates for CiviCRM + WordPress
 - [time-estimate-docs/required-items-difficulty-time.md](time-estimate-docs/required-items-difficulty-time.md): required-item difficulty ranking with time estimates from the evaluation matrix
+- [time-estimate-docs/line-by-line-estimate-comparison.md](time-estimate-docs/line-by-line-estimate-comparison.md): side-by-side line-item effort comparison across Codex, GPT, Pipedrive, Neon CRM, and Givebutter + Bloomerang
 
 ## Evaluation Workflow
 
