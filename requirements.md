@@ -1,43 +1,92 @@
-# Temple Foundation CRM Requirements (Draft v1)
+# Temple Foundation CRM Requirements (v2)
 
-This is a likely-needs baseline derived from current project context. It should be validated with stakeholders before final scoring.
+Last updated: March 12, 2026  
+Source of truth: `evaluation-matrix.md` required criteria (rows marked `✅` in the criteria column)
 
-## Assumptions Used
+This document replaces the older draft baseline and tracks the current required feature set used for CRM evaluation.
 
-- Early-stage nonprofit with limited admin capacity
-- Monthly software budget target around $150 (excluding payment processing)
-- Immediate focus on donor management, events, and communication
-- Website platform is not finalized yet
+## Contact and Data Foundation
 
-## Core Requirements (Likely Required Now)
+- Contact records
+- Custom fields
+- Tagging
+- Segmentation
+- Notes on records
+- File attachments
+- Contact timelines
+- Data import/export (CSV)
+- Duplicate detection and merge quality
+- Backup/export resilience (full-fidelity exit path)
+- Data migration complexity (must be manageable)
 
-| ID   | Priority | Requirement                                                           | Validation Check                                          |
-| ---- | -------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
-| R-01 | Must     | Centralized contact database for donors, participants, and volunteers | Create/search/edit contacts; import CSV without data loss |
-| R-02 | Must     | One-time and recurring donation processing                            | Complete both donation types in sandbox/live test         |
-| R-03 | Must     | Event registration and attendance tracking                            | Publish event, collect signups, and mark attendance       |
-| R-04 | Must     | Email segmentation and basic campaign sending                         | Build at least 2 segments and send test campaigns         |
-| R-05 | Must     | Total monthly platform cost aligns with budget target                 | Quote includes base plan + required modules               |
-| R-06 | Must     | Low ongoing admin overhead for a small team                           | New user can run core workflows after onboarding          |
-| R-07 | Must     | Basic reporting for donations, events, and engagement                 | Generate standard reports without custom development      |
-| R-08 | Must     | Website integration path (embed, plugin, or API)                      | Donation and event flows can be embedded or connected     |
-| R-09 | Should   | Role-based access for at least admin and staff users                  | Verify permission differences in user roles               |
-| R-10 | Should   | Receipt and acknowledgement automation                                | Auto-send donation receipts and event confirmations       |
-| R-11 | Should   | Integration with payment processor(s) and accounting export           | Confirm Stripe/PayPal support and finance export format   |
-| R-12 | Should   | Data import/export portability                                        | Export full records in common formats (CSV/API)           |
+## Access, Usability, and Operations
 
-## Growth Requirements (Likely Needed Later)
+- Constituent self-service portal (profile + preferences)
+- Role-based access control (admin vs staff)
+- Initial setup/config/deployment simplicity
+- Low ongoing admin overhead
+- New-user onboarding usability
+- Scalability switch risk (must be acceptable)
+- Monthly platform cost fits target budget
 
-| ID   | Priority | Requirement                                             | Validation Check                                  |
-| ---- | -------- | ------------------------------------------------------- | ------------------------------------------------- |
-| G-01 | Later    | Membership management workflows                         | Support levels, renewals, and reminders           |
-| G-02 | Later    | Volunteer scheduling and hours tracking                 | Create shifts and produce hours report            |
-| G-03 | Later    | Workflow automation for follow-up and stewardship       | Trigger task or message from key actions          |
-| G-04 | Later    | Enhanced donor analytics (retention, LTV, pipeline)     | Retention/LTV and donor-stage reporting available |
-| G-05 | Later    | Multi-user scaling with stronger permissions/audit logs | Activity logs and advanced permissions available  |
+## Donations, Funds, and Accounting
 
-## Out of Scope for Initial Selection
+- One-time donations
+- Recurring donations
+- Donation forms (embeddable)
+- Offline donation entry
+- Pledge tracking
+- Fund allocation tracking (annual, monthly, endowment, critical solicitations)
+- Revenue categories (by program/fund/campaign)
+- Donation acknowledgement automation (beyond receipts)
+- Donor lifetime value calculation
+- Donor segmentation
+- Planned giving / legacy gift tracking
+- Revenue reporting
+- QuickBooks integration
+- Accounting linkage (sync to accounting system)
+- QuickBooks class-tracking compatibility/workaround
+- Cash App/Venmo collection path
 
-- Enterprise-grade custom architecture
-- Heavy consulting-dependent implementation
-- Deep feature sets that require dedicated full-time CRM administration
+## Events
+
+- Event creation
+- RSVP tracking
+- Event capacity limits
+- Event reminder automation
+- Event feedback surveys
+- Event revenue tracking
+- Event registration forms/workflows
+- Automated event confirmations
+
+## Volunteers and Memberships
+
+- Volunteer sign-up forms
+- Volunteer coordination history (assignments/shifts/tasks)
+- Volunteer participation history
+- Volunteer categorization and tagging
+- Automated volunteer communication (SMS + email)
+- Auto-populate volunteer past participation
+- Membership renewal reminders
+- Membership dues processing
+
+## Communications and Engagement
+
+- Email campaign builder
+- Email templates
+- Email subgroups
+- SMS marketing
+- Newsletter management
+- Campaign tracking
+
+## Integration and Extensibility
+
+- Embeddable forms/widgets flexibility
+- API/webhook depth for custom site workflows
+- Non-widget implementation path (API-first/headless)
+- Forkable source code for in-house feature development
+
+## Notes
+
+- Criteria with `🟡` or `❓` priority in `evaluation-matrix.md` are intentionally excluded here.
+- Summary score rows in the matrix are not requirements and are excluded.
