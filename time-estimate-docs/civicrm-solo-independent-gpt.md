@@ -8,6 +8,11 @@ CRM project.
 
 # Overview
 
+Optional-scope note:
+
+- `Non-widget implementation path (API-first/headless)` is treated as a **maybe** add-on, not default required scope.
+- `Forkable source code for in-house feature development` is treated as a **maybe** add-on.
+
 These estimates assume:
 
 - **1 developer (Bradley)**
@@ -198,11 +203,15 @@ Examples:
 - planned giving workflows
 - grant reporting automation
 - API-driven website integration
-- headless/non-widget form flows
 - complex QuickBooks synchronization
 - SMS marketing workflows
 - campaign ROI analytics
 - audit/compliance logging improvements
+
+Optional add-ons (if selected):
+
+- headless/non-widget form flows
+- fork/extension program for in-house feature development
 
 Estimated Time:
 
@@ -219,7 +228,7 @@ These involve **engineering decisions**, not just configuration.
 
 # Hardest Implementation Items
 
-## 1. Headless / API-first Donation System
+## Optional Add-On: Headless / API-first Donation System
 
 Using CiviCRM purely as backend while building custom frontend forms.
 
@@ -237,7 +246,7 @@ Estimated time:
 
 ---
 
-## 2. Full Accounting Sync (QuickBooks)
+## 1. Full Accounting Sync (QuickBooks)
 
 Particularly complex when supporting:
 
@@ -252,7 +261,7 @@ Estimated time:
 
 ---
 
-## 3. Matching Gift Automation
+## 2. Matching Gift Automation
 
 Requires:
 
@@ -266,7 +275,7 @@ Estimated time:
 
 ---
 
-## 4. Grant Reporting Automation
+## 3. Grant Reporting Automation
 
 Tracking:
 
@@ -302,6 +311,13 @@ Scenario Total
 
 Without AI **\~5--6 months**
 With AI **\~3--4 months**
+
+These totals exclude optional headless/forking add-ons.
+
+Optional add-on impact (if selected):
+
+- Headless/API-first implementation: **+3--6 weeks**
+- Forking/extensibility approach: **context-dependent** (can save time on specific features later)
 
 ---
 

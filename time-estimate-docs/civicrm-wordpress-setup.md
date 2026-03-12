@@ -7,6 +7,11 @@ This document provides practical setup steps and estimated timelines for impleme
 1. Basic/initial feature launch (usable first production release)
 2. Full required-feature rollout (all `✅` priority criteria from `evaluation-matrix.md`)
 
+Optional-scope note:
+
+- `Non-widget implementation path (API-first/headless)` is treated as a maybe add-on, not part of base required rollout.
+- `Forkable source code for in-house feature development` is treated as a maybe add-on.
+
 ## Estimation Assumptions
 
 - Team model: 1 technical implementer + 1 operations lead + part-time stakeholder reviewers
@@ -33,11 +38,16 @@ Practical adjusted ranges (same scope assumptions):
   - Baseline typical: `5-7 weeks`
   - AI/Codex-assisted typical: `4-6 weeks`
 - Scope 2 (all required features)
-  - Baseline additive: `+7 to +14 weeks`
-  - AI/Codex-assisted additive: `+6 to +11 weeks`
+  - Baseline additive: `+7 to +14 weeks` (excluding optional headless/forking add-ons)
+  - AI/Codex-assisted additive: `+6 to +11 weeks` (excluding optional headless/forking add-ons)
 - Total from scratch (Scope 1 + Scope 2)
-  - Baseline typical: `12-21 weeks`
-  - AI/Codex-assisted typical: `10-17 weeks`
+  - Baseline typical: `12-21 weeks` (excluding optional headless/forking add-ons)
+  - AI/Codex-assisted typical: `10-17 weeks` (excluding optional headless/forking add-ons)
+
+Optional add-on impact (if selected):
+
+- Headless/API-first path: `+3 to +6 weeks`
+- Forking/extensibility approach: context-dependent (can reduce custom build time for some features)
 
 Use caution with compressed timelines when business rules are still evolving. AI can accelerate execution, but it does not remove the need for stakeholder alignment and acceptance testing.
 
@@ -161,8 +171,13 @@ Deliver all `✅` priority criteria in `evaluation-matrix.md` for CiviCRM, inclu
 - Volunteer coordination history and auto-populated participation patterns
 - SMS capabilities and multichannel communication controls
 - Accounting linkage + QuickBooks integration path
-- API/webhook and non-widget implementation pathways
+- API/webhook implementation pathways
 - Backup/export resilience, audit/compliance logging, and sandbox/testing process
+
+Optional add-ons (if selected):
+
+- non-widget/headless implementation pathway
+- fork/extension program setup for in-house feature development
 
 ### Step-by-step plan (full required rollout)
 

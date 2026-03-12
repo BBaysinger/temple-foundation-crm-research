@@ -8,6 +8,8 @@ This estimate is independent and does **not** rely on prior timeline docs in thi
 - Existing hosting/domain are available.
 - Scope is CiviCRM with web forms and integrations aligned to `evaluation-matrix.md`.
 - Estimates are **calendar time** ranges, not pure engineering hours.
+- `Non-widget implementation path (API-first/headless)` is treated as an optional maybe add-on.
+- `Forkable source code for in-house feature development` is treated as an optional maybe add-on.
 
 ## Phase Estimates (Without AI vs With AI)
 
@@ -23,6 +25,13 @@ This estimate is independent and does **not** rely on prior timeline docs in thi
 
 - Without AI: **29-50 weeks** (~7-12 months)
 - With AI: **20-39 weeks** (~5-9 months)
+
+These cumulative ranges exclude optional headless/forking add-ons.
+
+Optional add-on impact (if selected):
+
+- Headless/API-first implementation: **+3-6 weeks**
+- Forking/extensibility approach: **context-dependent** (can reduce custom build time for some features)
 
 ## Where AI Helps Most
 
@@ -41,5 +50,9 @@ This estimate is independent and does **not** rely on prior timeline docs in thi
 1. QuickBooks integration + accounting linkage + class-tracking workaround.
 2. Constituent self-service portal with secure auth + profile/preferences sync.
 3. Reliable volunteer auto-history and coordination automation.
-4. API-first/non-widget flows with robust retry/monitoring.
-5. Multi-channel automation (email/SMS) with compliance-safe logic and auditability.
+4. Multi-channel automation (email/SMS) with compliance-safe logic and auditability.
+
+## Optional Very-Hard Add-Ons (If Selected)
+
+1. API-first/non-widget flows with robust retry/monitoring.
+2. Fork/extension program setup for in-house feature development.

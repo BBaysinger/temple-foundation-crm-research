@@ -83,6 +83,9 @@ This document replaces the older draft baseline and tracks the current required 
 
 - Embeddable forms/widgets flexibility
 - API/webhook depth for custom site workflows
+
+## Maybe (Optional for Initial Scope)
+
 - Non-widget implementation path (API-first/headless)
 - Forkable source code for in-house feature development
 
@@ -90,3 +93,5 @@ This document replaces the older draft baseline and tracks the current required 
 
 - Criteria with `🟡` or `❓` priority in `evaluation-matrix.md` are intentionally excluded here.
 - Summary score rows in the matrix are not requirements and are excluded.
+- `Non-widget implementation path (API-first/headless)` is currently treated as a `maybe` for planning and sequencing.
+- `Forkable source code for in-house feature development` is currently treated as a `maybe`; it can accelerate certain features when extension/fork paths are strategically chosen.
