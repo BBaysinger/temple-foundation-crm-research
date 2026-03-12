@@ -9,7 +9,6 @@ This estimate is independent and does **not** rely on prior timeline docs in thi
 - Scope is CiviCRM with web forms and integrations aligned to `evaluation-matrix.md`.
 - Estimates are **calendar time** ranges, not pure engineering hours.
 - `Non-widget implementation path (API-first/headless)` is treated as an optional maybe add-on.
-- `Forkable source code for in-house feature development` is treated as an optional maybe add-on.
 
 ## Phase Estimates (Without AI vs With AI)
 

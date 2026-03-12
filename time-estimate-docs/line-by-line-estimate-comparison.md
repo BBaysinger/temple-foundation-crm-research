@@ -66,7 +66,6 @@ Platform feasibility basis: `evaluation-matrix.md` (Pipedrive, Neon CRM, Givebut
 | Line Item                                  | Codex Estimate            | GPT Estimate              | Pipedrive                          | Neon CRM                           | Givebutter + Bloomerang         |
 | ------------------------------------------ | ------------------------- | ------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------- |
 | Optional: Headless architecture            | `15-30d`                  | `15-30d`                  | `15-40d`                           | `5-15d`                            | `15-40d`                        |
-| Optional: Forkable source code path        | `🔴❓`                    | `🔴❓`                    | `X`                                | `X`                                | `X`                             |
 | **Tier Total (Optional)**                  | **`15-30d` + `🔴❓`**     | **`15-30d` + `🔴❓`**     | **`15-40d` + `X`**                 | **`5-15d` + `X`**                  | **`15-40d` + `X`**              |
 | **Cumulative Total (Required + Optional)** | **`117.5-239d` + `🔴❓`** | **`117.5-239d` + `🔴❓`** | **`64-169d` + `2x 🔴❓` + `2x X`** | **`37-107d` + `2x 🔴❓` + `2x X`** | **`66-176d` + `🔴❓` + `3x X`** |
 

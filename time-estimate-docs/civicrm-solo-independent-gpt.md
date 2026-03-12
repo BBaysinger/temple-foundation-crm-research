@@ -11,7 +11,6 @@ CRM project.
 Optional-scope note:
 
 - `Non-widget implementation path (API-first/headless)` is treated as a **maybe** add-on, not default required scope.
-- `Forkable source code for in-house feature development` is treated as a **maybe** add-on.
 
 These estimates assume:
 

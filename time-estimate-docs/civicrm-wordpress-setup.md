@@ -10,7 +10,6 @@ This document provides practical setup steps and estimated timelines for impleme
 Optional-scope note:
 
 - `Non-widget implementation path (API-first/headless)` is treated as a maybe add-on, not part of base required rollout.
-- `Forkable source code for in-house feature development` is treated as a maybe add-on.
 
 ## Estimation Assumptions
 

@@ -285,4 +285,3 @@ Rows used from `evaluation-matrix.md` (criteria with `✅` priority marker):
 ## Optional add-ons (maybe)
 
 - Non-widget implementation path (API-first/headless)
-- Forkable source code for in-house feature development
