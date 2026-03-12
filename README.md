@@ -34,7 +34,13 @@ The selected CRM should:
 - [supabase_nonprofit_platform.md](supabase_nonprofit_platform.md): Supabase-first backend architecture for donations, memberships, events, and volunteers
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
 - [implementation-style-matrix.md](implementation-style-matrix.md): implementation and styling options matrix (headless/templates/widgets/CSS control)
-- [civicrm-wordpress-setup-estimates.md](civicrm-wordpress-setup-estimates.md): phased setup steps and timeline estimates for CiviCRM + WordPress
+
+## Time Estimate Docs
+
+- [time-estimate-docs/civicrm-solo-independent-gpt.md](time-estimate-docs/civicrm-solo-independent-gpt.md): solo CiviCRM implementation timeline (GPT version)
+- [time-estimate-docs/civicrm-solo-independent-codex.md](time-estimate-docs/civicrm-solo-independent-codex.md): solo CiviCRM implementation timeline (Codex version)
+- [time-estimate-docs/civicrm-wordpress-setup.md](time-estimate-docs/civicrm-wordpress-setup.md): phased setup steps and timeline estimates for CiviCRM + WordPress
+- [time-estimate-docs/required-items-difficulty-time.md](time-estimate-docs/required-items-difficulty-time.md): required-item difficulty ranking with time estimates from the evaluation matrix
 
 ## Evaluation Workflow
 
