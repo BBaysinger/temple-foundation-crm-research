@@ -1,9 +1,9 @@
-# Required Items by Difficulty and Time (Revised Estimate)
+# Required Items by Difficulty and Time (Optimistic Evaluation)
 
 Date: March 12, 2026  
 Basis: `evaluation-matrix.md` rows marked `✅` only  
-Estimator: ChatGPT revised estimate  
-Implementation assumption: CiviCRM-oriented stack, 1 developer, production-ready config/testing, heavy AI assistance
+Estimator: ChatGPT optimistic estimate  
+Implementation assumption: CiviCRM-oriented stack, 1 developer who is also the only tester, production-ready configuration/testing, heavy AI assistance, disciplined scope control
 
 ## Estimation Rules
 
@@ -14,8 +14,10 @@ Implementation assumption: CiviCRM-oriented stack, 1 developer, production-ready
   - payment/accounting vendors cooperate
   - data is not catastrophically messy
   - no major custom plugin is required beyond expected extension/config work
+  - implementation stays close to CiviCRM’s intended workflows where possible
 - Two score-only rows from the matrix remain excluded.
 - These estimates are for a **real deliverable**, not a demo.
+- Because the same person is both the **implementer and sole tester**, build speed can be high, but QA capacity is narrower and more fragile than in a multi-person team.
 
 ---
 
@@ -23,8 +25,10 @@ Implementation assumption: CiviCRM-oriented stack, 1 developer, production-ready
 
 - Implementation target: CiviCRM-oriented stack
 - Team: 1 developer
+- QA model: same developer is the only tester
 - Delivery quality: production-ready configuration and testing
 - Acceleration: heavy AI assistance
+- Estimate posture: optimistic but credible
 - Notes:
   - Time estimates are implementation effort ranges.
   - Day-to-week conversions use a 5-day work week.
@@ -38,7 +42,7 @@ These are mostly native setup, standard configuration, or straightforward admin 
 
 1. **Core contact model**  
    `Contact records`, `Custom fields`, `Tagging`, `Segmentation`, `Notes on records`, `File attachments`, `Contact timelines`  
-   **Estimate:** `2-4 days`
+   **Estimate:** `1-3 days`
 
 2. **Basic data administration**  
    `Data import/export (CSV)`, `Role-based access control`  
@@ -54,19 +58,19 @@ These are mostly native setup, standard configuration, or straightforward admin 
 
 5. **Usability baseline**  
    `New-user onboarding usability`  
-   **Estimate:** `1-2 days`
+   **Estimate:** `1 day`
 
 6. **Budget validation**  
    `Monthly platform cost fits target budget`  
-   **Estimate:** `0.5-1 day`
+   **Estimate:** `0.5 day`
 
 ### Tier total
 
-`6.5-13 days` (`1.3-2.6 weeks`)
+`5.5-10.5 days` (`1.1-2.1 weeks`)
 
 ### Cumulative total
 
-`6.5-13 days` (`1.3-2.6 weeks`)
+`5.5-10.5 days` (`1.1-2.1 weeks`)
 
 ---
 
@@ -76,39 +80,39 @@ These are workable in a normal implementation, but they involve more cross-featu
 
 1. **Donation flow baseline**  
    `One-time donations`, `Recurring donations`, `Donation forms (embeddable)`, `Offline donation entry`  
-   **Estimate:** `3-5 days`
+   **Estimate:** `2-4 days`
 
 2. **Campaign and fundraising operations**  
    `Campaign tracking`, `Donation acknowledgement automation`, `Revenue reporting`, `Event revenue tracking`  
-   **Estimate:** `3-5 days`
+   **Estimate:** `2-4 days`
 
 3. **Event automation**  
    `Event registration forms/workflows`, `Automated event confirmations`, `Event reminder automation`  
-   **Estimate:** `2-4 days`
+   **Estimate:** `2-3 days`
 
 4. **Volunteer and membership baseline**  
    `Volunteer sign-up forms`, `Volunteer participation history`, `Volunteer categorization and tagging`, `Membership renewal reminders`, `Membership dues processing`  
-   **Estimate:** `4-6 days`
+   **Estimate:** `3-5 days`
 
 5. **Donor intelligence baseline**  
    `Donor segmentation`, `Donor lifetime value calculation`  
-   **Estimate:** `2-4 days`
+   **Estimate:** `2-3 days`
 
 6. **Quality and reliability baseline**  
    `Duplicate detection + merge quality`, `Backup/export resilience`  
-   **Estimate:** `2-4 days`
+   **Estimate:** `2-3 days`
 
 7. **Embedding path**  
    `Embeddable forms/widgets flexibility`  
-   **Estimate:** `2-3 days`
+   **Estimate:** `1-2 days`
 
 ### Tier total
 
-`18-31 days` (`3.6-6.2 weeks`)
+`14-24 days` (`2.8-4.8 weeks`)
 
 ### Cumulative total
 
-`24.5-44 days` (`4.9-8.8 weeks`)
+`19.5-34.5 days` (`3.9-6.9 weeks`)
 
 ---
 
@@ -122,19 +126,19 @@ These are the features that usually stop being "configuration only" and start de
 
 2. **Fund accounting model**  
    `Fund allocation tracking`, `Revenue categories`, `Pledge tracking`, `Planned giving / legacy gift tracking`  
-   **Estimate:** `2-4 weeks`
+   **Estimate:** `1-3 weeks`
 
 3. **Volunteer automation depth**  
    `Volunteer coordination history`, `Automated volunteer communication (SMS + email)`, `Auto-populate volunteer past participation`  
-   **Estimate:** `2-4 weeks`
+   **Estimate:** `1-3 weeks`
 
 4. **Finance integrations**  
    `QuickBooks integration`, `Accounting linkage (sync to accounting system)`, `Cashapp/Venmo capture flow`  
-   **Estimate:** `2-5 weeks`
+   **Estimate:** `1-3 weeks`
 
 5. **API integrations**  
    `API/webhook depth for custom site workflows`  
-   **Estimate:** `1-3 weeks`
+   **Estimate:** `1-2 weeks`
 
 6. **Operations hardening**  
    `Low ongoing admin overhead`, `Initial setup/config/deployment simplicity` workarounds  
@@ -142,16 +146,16 @@ These are the features that usually stop being "configuration only" and start de
 
 7. **Platform risk controls**  
    `Scalability switch risk` mitigation, `Data migration complexity` planning and execution  
-   **Estimate:** `2-4 weeks`
+   **Estimate:** `1-3 weeks`
 
 ### Tier total
 
-`11-24 weeks`
+`7-18 weeks`
 
 ### Cumulative total
 
-`15.9-32.8 weeks`  
-Approx. `4.0-8.2 months`
+`10.9-24.9 weeks`  
+Approx. `2.7-6.2 months`
 
 ---
 
@@ -161,20 +165,20 @@ These are the ugly edge cases and "looks simple on paper, gets painful in implem
 
 1. **Advanced accounting edge case**  
    `QuickBooks class-tracking compatibility/workaround`  
-   **Estimate:** `3-6 weeks`
+   **Estimate:** `2-4 weeks`
 
 2. **SMS program at scale**  
    `SMS marketing` with compliant workflows, segmentation, opt-in/out handling, and delivery process  
-   **Estimate:** `3-8 weeks`
+   **Estimate:** `2-4 weeks`
 
 ### Tier total
 
-`6-14 weeks`
+`4-8 weeks`
 
 ### Cumulative total (all required tiers)
 
-`21.9-46.8 weeks`  
-Approx. `5.5-11.7 months`
+`14.9-32.9 weeks`  
+Approx. `3.7-8.2 months`
 
 ---
 
@@ -182,35 +186,35 @@ Approx. `5.5-11.7 months`
 
 1. **Headless architecture**  
    `Non-widget implementation path (API-first/headless)`  
-   **Estimate:** `4-10 weeks`
+   **Estimate:** `4-6 weeks`
 
 ### Tier total (optional)
 
-`4-10 weeks`
+`4-6 weeks`
 
 ### Cumulative total (required + optional headless)
 
-`25.9-56.8 weeks`  
-Approx. `6.5-14.2 months`
+`18.9-38.9 weeks`  
+Approx. `4.7-9.7 months`
 
 ---
 
 ## Roll-Up Totals
 
-1. **MVP required subset (core CRM + donations + basic events + basic email):** `10-17 days` (`2-3.4 weeks`)
-2. **Full required set (excluding optional headless paths):** `21.9-46.8 weeks` (`5.5-11.7 months`)
-3. **If optional headless path is included from day one:** `25.9-56.8 weeks` (`6.5-14.2 months`)
-4. **If optional extensibility is used strategically:**  
-   `A realistic target is toward the lower-middle of the full-range estimate, roughly 24-36 weeks (6-9 months), assuming disciplined scope control and selective use of extensions instead of custom architecture.`
+1. **MVP required subset (core CRM + donations + basic events + basic email):** `10-15 days` (`2-3 weeks`)
+2. **Full required set:** `14.9-32.9 weeks` (`3.7-8.2 months`)
+3. **Full required set with moderate real-world friction:** `18-28 weeks`
+4. **If optional headless path is included from day one:** add `4-6 weeks`
 
 ---
 
 ## Practical Roll-Up Read
 
-- A **usable first release** centered on contacts, donations, basic email, and events is realistic in about **2-4 weeks of implementation effort**.
-- A **serious production deployment** that covers the full required matrix is more like a **multi-month systems implementation**, not a quick setup job.
-- The biggest jump in effort comes from **accounting structure**, **portal/self-service**, **volunteer automation depth**, **SMS compliance**, and **integration edge cases**.
-- A **headless or non-widget-first approach** is defensible only if digital experience is central enough to justify the extra architecture cost early.
+- A **usable first release** centered on contacts, donations, basic email, and events is realistic in about **2-3 weeks of implementation effort**.
+- A **full required implementation** is still a **multi-month system**, even under optimistic assumptions.
+- Being the **only dev and only tester** reduces coordination overhead, but it also means the same person must validate payments, permissions, forms, automations, reporting, migration behavior, and integration flows.
+- The biggest effort multipliers remain **constituent self-service**, **fund/accounting structure**, **QuickBooks linkage**, **SMS workflows/compliance**, and **volunteer automation depth**.
+- A **headless/non-widget path** is possible, but it should be treated as a separate architectural premium, not a free styling choice.
 
 Biggest schedule risks:
 
@@ -219,6 +223,7 @@ Biggest schedule risks:
 - constituent portal expectations
 - dirty migration data
 - trying to avoid widget-style embeds too early
+- underestimating solo QA time
 - underestimating admin/training/process design work
 
 ---
