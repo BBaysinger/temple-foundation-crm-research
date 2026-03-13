@@ -35,6 +35,8 @@ The selected CRM should:
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
 - [implementation-style-matrix.md](implementation-style-matrix.md): implementation and styling options matrix (headless/templates/widgets/CSS control)
 - [crm-form-inclusion-evaluation.md](crm-form-inclusion-evaluation.md): CRM-by-CRM comparison of form inclusion modes, website control, and setup tradeoffs
+- [crm-exit-migration-notes.md](crm-exit-migration-notes.md): preliminary assessment of how difficult it would be to migrate away from each shortlisted CRM later
+- [nonprofit-saas-crm-growth-migration-notes.md](nonprofit-saas-crm-growth-migration-notes.md): overview of how often nonprofits outgrow SaaS CRMs, what drives replatforming, and what warning signs to watch for
 - [temple-foundation-civicrm-evaluation-notes-2026-03-13.md](temple-foundation-civicrm-evaluation-notes-2026-03-13.md): focused notes on CiviCRM fit, rollout risk, and support implications for Temple Foundation
 
 ## Time Estimate Docs
