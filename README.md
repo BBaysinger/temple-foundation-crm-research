@@ -34,13 +34,19 @@ The selected CRM should:
 - [supabase_nonprofit_platform.md](supabase_nonprofit_platform.md): Supabase-first backend architecture for donations, memberships, events, and volunteers
 - [evaluation-matrix.md](evaluation-matrix.md): side-by-side scoring and final recommendation inputs
 - [implementation-style-matrix.md](implementation-style-matrix.md): implementation and styling options matrix (headless/templates/widgets/CSS control)
+- [crm-form-inclusion-evaluation.md](crm-form-inclusion-evaluation.md): CRM-by-CRM comparison of form inclusion modes, website control, and setup tradeoffs
+- [temple-foundation-civicrm-evaluation-notes-2026-03-13.md](temple-foundation-civicrm-evaluation-notes-2026-03-13.md): focused notes on CiviCRM fit, rollout risk, and support implications for Temple Foundation
 
 ## Time Estimate Docs
 
 - [time-estimate-docs/civicrm-solo-independent-gpt.md](time-estimate-docs/civicrm-solo-independent-gpt.md): solo CiviCRM implementation timeline (GPT version)
 - [time-estimate-docs/civicrm-solo-independent-codex.md](time-estimate-docs/civicrm-solo-independent-codex.md): solo CiviCRM implementation timeline (Codex version)
 - [time-estimate-docs/civicrm-wordpress-setup.md](time-estimate-docs/civicrm-wordpress-setup.md): phased setup steps and timeline estimates for CiviCRM + WordPress
-- [time-estimate-docs/required-items-difficulty-time.md](time-estimate-docs/required-items-difficulty-time.md): required-item difficulty ranking with time estimates from the evaluation matrix
+- [time-estimate-docs/required-items-difficulty-time-template-for-claude.md](time-estimate-docs/required-items-difficulty-time-template-for-claude.md): Claude-authored required-item difficulty ranking and effort estimates from the evaluation matrix
+- [time-estimate-docs/required-items-difficulty-time-gpt.md](time-estimate-docs/required-items-difficulty-time-gpt.md): GPT-authored required-item difficulty ranking and effort estimates from the evaluation matrix
+- [time-estimate-docs/required-items-difficulty-time-codex.md](time-estimate-docs/required-items-difficulty-time-codex.md): Codex-authored required-item difficulty ranking and effort estimates from the evaluation matrix
+- [time-estimate-docs/required-items-difficulty-time-gpt-optimistic.md](time-estimate-docs/required-items-difficulty-time-gpt-optimistic.md): more optimistic GPT estimate variant for the required-item implementation scope
+- [time-estimate-docs/required-items-difficulty-time-codex-optimistic.md](time-estimate-docs/required-items-difficulty-time-codex-optimistic.md): more optimistic Codex estimate variant for the required-item implementation scope
 - [time-estimate-docs/line-by-line-estimate-comparison.md](time-estimate-docs/line-by-line-estimate-comparison.md): side-by-side line-item effort comparison across Codex, GPT, Pipedrive, Neon CRM, and Givebutter + Bloomerang
 
 ## Evaluation Workflow
