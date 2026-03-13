@@ -118,21 +118,27 @@ That keeps costs down while preserving the option to get specialized guidance if
 The best path appears to be a phased rollout.
 
 ### Phase 1
+
 Start with a small, practical implementation:
+
 - basic contact management
 - initial forms
 - simple workflows
 - minimal operational complexity
 
 ### Phase 2
+
 Refine based on actual use:
+
 - improve admin flow
 - adjust structure where needed
 - clean up early issues
 - expand only where there is clear value
 
 ### Phase 3
+
 Add more advanced capabilities only if justified:
+
 - broader automation
 - more sophisticated workflows
 - payment/accounting integrations

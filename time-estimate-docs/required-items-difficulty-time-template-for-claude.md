@@ -1,9 +1,9 @@
 # Required Items by Difficulty and Time (Blank Estimation Template)
 
-Date: ____________________
+Date: ********\_\_\_\_********
 Basis: `evaluation-matrix.md` rows marked `✅` only
-Estimator: ____________________
-Implementation assumption: ____________________
+Estimator: ********\_\_\_\_********
+Implementation assumption: ********\_\_\_\_********
 
 ## Estimation Instructions (Use Independent Judgment)
 
@@ -18,10 +18,10 @@ Implementation assumption: ____________________
 
 ## Estimation Context
 
-- Implementation target: ____________________
-- Team size: ____________________
+- Implementation target: ********\_\_\_\_********
+- Team size: ********\_\_\_\_********
 - Delivery quality target: production-ready configuration and testing (or specify)
-- AI/tooling acceleration level: ____________________
+- AI/tooling acceleration level: ********\_\_\_\_********
 - Notes:
   - Time estimates are implementation effort ranges.
   - Day-to-week conversions use a 5-day work week.
